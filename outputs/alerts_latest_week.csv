@@ -1,0 +1,301 @@
+week,outlet_id,channel,region,sku,closing_stock,weeks_of_cover,risk,ev,reasons,suggested_action
+2026-08-17,OUT0097,Petrol Station,Nairobi,Fresh Milk 500ml,0,0.0,0.882,215.829,no delivery scheduled next week; low weeks of cover; low merchandiser coverage,Raise an emergency top-up order
+2026-08-17,OUT0125,Duka,Coast,Yoghurt 250ml Kids,2,0.133,0.881,164.02,no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries,Raise an emergency top-up order
+2026-08-17,OUT0080,Duka,Central,Yoghurt 500ml Strawberry,5,0.417,0.847,279.189,low weeks of cover; no delivery scheduled next week; low merchandiser coverage; far from depot,Raise an emergency top-up order
+2026-08-17,OUT0142,Duka,Central,Yoghurt 500ml Vanilla,11,0.579,0.825,457.809,no delivery scheduled next week; low weeks of cover; low merchandiser coverage; sales accelerating,Raise an emergency top-up order
+2026-08-17,OUT0144,Petrol Station,Nyanza,Bacon 250g,1,0.444,0.786,102.79,no delivery scheduled next week; low weeks of cover; sales accelerating; low merchandiser coverage,Raise an emergency top-up order
+2026-08-17,OUT0011,Duka,Nyanza,Fresh Milk 500ml,26,0.832,0.782,235.947,no delivery scheduled next week; low weeks of cover; low merchandiser coverage,Raise an emergency top-up order
+2026-08-17,OUT0174,Petrol Station,Western,Burger Buns 6pk,9,1.44,0.765,104.948,promotion next week; no delivery scheduled next week; sales accelerating; repeated short deliveries,Raise an emergency top-up order
+2026-08-17,OUT0187,Petrol Station,Western,Yoghurt 250ml Kids,4,0.286,0.759,122.062,no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries,Raise an emergency top-up order
+2026-08-17,OUT0035,Duka,Western,Mozzarella 200g,1,0.267,0.746,231.833,low weeks of cover; no delivery scheduled next week; low merchandiser coverage; low closing stock,Raise an emergency top-up order
+2026-08-17,OUT0144,Petrol Station,Nyanza,Fresh Milk 500ml,18,1.043,0.74,99.315,no delivery scheduled next week; sales accelerating; low weeks of cover,Raise an emergency top-up order
+2026-08-17,OUT0183,Duka,Central,Burger Buns 6pk,14,1.556,0.738,165.161,promotion next week; no delivery scheduled next week; repeated short deliveries,Raise an emergency top-up order
+2026-08-17,OUT0164,Duka,Western,Sausages 500g,4,0.667,0.735,283.595,no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries,Raise an emergency top-up order
+2026-08-17,OUT0023,Duka,Central,Yoghurt 500ml Strawberry,8,1.067,0.713,123.146,no delivery scheduled next week; promotion next week; low weeks of cover; low merchandiser coverage,Raise an emergency top-up order
+2026-08-17,OUT0071,Petrol Station,Rift Valley,Yoghurt 500ml Vanilla,4,0.267,0.697,288.607,low weeks of cover; no delivery scheduled next week; low merchandiser coverage; repeated short deliveries,Raise an emergency top-up order
+2026-08-17,OUT0018,Duka,Central,Ice Cream 1L Chocolate,1,0.222,0.67,302.637,low weeks of cover; sales accelerating; no delivery scheduled next week; low merchandiser coverage,Raise an emergency top-up order
+2026-08-17,OUT0051,Duka,Nairobi,Greek Yoghurt 450g,2,0.471,0.658,161.519,no delivery scheduled next week; low weeks of cover; low merchandiser coverage,Raise an emergency top-up order
+2026-08-17,OUT0193,Duka,Central,Yoghurt 500ml Vanilla,6,0.75,0.655,119.864,no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries,Raise an emergency top-up order
+2026-08-17,OUT0058,Duka,Coast,Long-life Milk 1L,7,0.483,0.642,184.646,no delivery scheduled next week; low weeks of cover; promotion next week,Raise an emergency top-up order
+2026-08-17,OUT0068,Duka,Nairobi,Greek Yoghurt 450g,2,0.615,0.635,106.098,low weeks of cover; no delivery scheduled next week; low merchandiser coverage,Raise an emergency top-up order
+2026-08-17,OUT0187,Petrol Station,Western,Long-life Milk 1L,19,1.267,0.635,189.883,promotion next week; no delivery scheduled next week; sales accelerating; repeated short deliveries,Raise an emergency top-up order
+2026-08-17,OUT0193,Duka,Central,Sausages 500g,5,0.667,0.634,309.248,low weeks of cover; no delivery scheduled next week; low merchandiser coverage; repeated short deliveries,Raise an emergency top-up order
+2026-08-17,OUT0203,Duka,Nairobi,Fresh Milk 500ml,30,1.5,0.627,96.805,no delivery scheduled next week; sales accelerating; repeated short deliveries,Raise an emergency top-up order
+2026-08-17,OUT0164,Duka,Western,Yoghurt 500ml Vanilla,8,0.914,0.609,122.567,no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries,Raise an emergency top-up order
+2026-08-17,OUT0182,Petrol Station,Western,Sausages 500g,2,0.258,0.602,302.63,low weeks of cover; no delivery scheduled next week; low merchandiser coverage; far from depot,Raise an emergency top-up order
+2026-08-17,OUT0208,Duka,Rift Valley,Ice Cream 1L Vanilla,1,0.267,0.59,208.937,no delivery scheduled next week; low weeks of cover; sales accelerating,Raise an emergency top-up order
+2026-08-17,OUT0085,Duka,Rift Valley,Yoghurt 500ml Strawberry,14,0.966,0.545,205.93,no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries,Raise an emergency top-up order
+2026-08-17,OUT0080,Duka,Central,Fresh Milk 500ml,39,1.311,0.541,138.454,no delivery scheduled next week; far from depot,Raise an emergency top-up order
+2026-08-17,OUT0146,Petrol Station,Nairobi,Butter 250g,8,0.889,0.54,290.996,no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries,Raise an emergency top-up order
+2026-08-17,OUT0196,Petrol Station,Rift Valley,Sausages 500g,1,0.143,0.538,234.571,no delivery scheduled next week; promotion next week; low weeks of cover; repeated short deliveries,Raise an emergency top-up order
+2026-08-17,OUT0018,Duka,Central,Burger Buns 6pk,4,0.4,0.524,119.761,far from depot; low weeks of cover; low merchandiser coverage; sales accelerating,Merchandiser check & reorder
+2026-08-17,OUT0205,Duka,Rift Valley,Sausages 500g,4,0.762,0.524,157.882,no delivery scheduled next week; low weeks of cover; low merchandiser coverage; sales accelerating,Raise an emergency top-up order
+2026-08-17,OUT0182,Petrol Station,Western,Greek Yoghurt 450g,7,1.077,0.52,205.488,promotion next week; no delivery scheduled next week; far from depot; low weeks of cover,Raise an emergency top-up order
+2026-08-17,OUT0213,Duka,Central,Fresh Milk 500ml,16,0.615,0.504,103.196,far from depot; low weeks of cover; low merchandiser coverage,Merchandiser check & reorder
+2026-08-17,OUT0193,Duka,Central,Ice Cream 1L Vanilla,3,0.8,0.5,169.592,no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries,Raise an emergency top-up order
+2026-08-17,OUT0168,HoReCa,Western,Yoghurt 500ml Strawberry,8,0.386,0.48,272.85,far from depot; promotion next week; low weeks of cover; low merchandiser coverage; low closing stock,Increase next delivery for the promotion
+2026-08-17,OUT0016,Petrol Station,Nairobi,Bacon 250g,1,0.286,0.47,92.114,no delivery scheduled next week; low weeks of cover; repeated short deliveries,Raise an emergency top-up order
+2026-08-17,OUT0170,Duka,Rift Valley,Mozzarella 200g,4,0.8,0.464,183.874,no delivery scheduled next week; low weeks of cover; low merchandiser coverage,Raise an emergency top-up order
+2026-08-17,OUT0139,Petrol Station,Nairobi,Bacon 250g,3,0.857,0.46,89.046,low weeks of cover; no delivery scheduled next week; sales accelerating; low merchandiser coverage,Raise an emergency top-up order
+2026-08-17,OUT0153,Duka,Central,Fresh Milk 500ml,9,0.346,0.454,87.976,far from depot; low weeks of cover; low merchandiser coverage,Merchandiser check & reorder
+2026-08-17,OUT0057,Duka,Central,Yoghurt 250ml Kids,20,0.808,0.449,129.925,low weeks of cover; no delivery scheduled next week; sales accelerating; repeated short deliveries,Raise an emergency top-up order
+2026-08-17,OUT0197,Duka,Rift Valley,Butter 250g,6,0.889,0.437,157.14,no delivery scheduled next week; low weeks of cover; low merchandiser coverage,Raise an emergency top-up order
+2026-08-17,OUT0018,Duka,Central,Butter 250g,3,0.545,0.433,117.052,far from depot; low weeks of cover; sales accelerating; low merchandiser coverage; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0080,Duka,Central,Ice Cream 1L Vanilla,4,0.842,0.429,188.303,low weeks of cover; no delivery scheduled next week; far from depot; sales accelerating,Raise an emergency top-up order
+2026-08-17,OUT0083,HoReCa,Nairobi,Fresh Milk 500ml,14,0.252,0.424,225.097,promotion next week; far from depot; low weeks of cover; low merchandiser coverage; sales accelerating,Increase next delivery for the promotion
+2026-08-17,OUT0081,Duka,Nairobi,Yoghurt 500ml Vanilla,8,0.821,0.424,83.822,promotion next week; far from depot; low weeks of cover; low merchandiser coverage; low closing stock,Increase next delivery for the promotion
+2026-08-17,OUT0220,Supermarket,Nairobi,Fresh Milk 500ml,201,1.16,0.423,808.069,promotion next week; low weeks of cover; far from depot,Increase next delivery for the promotion
+2026-08-17,OUT0182,Petrol Station,Western,Yoghurt 500ml Vanilla,5,0.351,0.421,144.366,far from depot; low weeks of cover; low merchandiser coverage,Merchandiser check & reorder
+2026-08-17,OUT0168,HoReCa,Western,Burger Buns 6pk,4,0.372,0.421,96.492,far from depot; low weeks of cover; low merchandiser coverage; sales accelerating,Merchandiser check & reorder
+2026-08-17,OUT0078,HoReCa,Rift Valley,Ice Cream 1L Vanilla,2,0.32,0.398,241.051,far from depot; low weeks of cover; sales accelerating; low merchandiser coverage; low closing stock,Merchandiser check & reorder
+2026-08-17,OUT0087,Petrol Station,Central,Yoghurt 250ml Kids,32,1.058,0.382,137.339,no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries,Raise an emergency top-up order
+2026-08-17,OUT0021,HoReCa,Nairobi,Yoghurt 250ml Kids,21,0.6,0.382,166.535,far from depot; low weeks of cover; low merchandiser coverage; sales accelerating,Merchandiser check & reorder
+2026-08-17,OUT0182,Petrol Station,Western,Ice Cream 1L Vanilla,3,0.545,0.382,195.702,far from depot; low weeks of cover; sales accelerating; low merchandiser coverage,Merchandiser check & reorder
+2026-08-17,OUT0083,HoReCa,Nairobi,Ice Cream 1L Chocolate,8,0.97,0.382,318.288,promotion next week; far from depot; low weeks of cover; sales accelerating; low merchandiser coverage,Increase next delivery for the promotion
+2026-08-17,OUT0065,Petrol Station,Nairobi,Ice Cream 1L Vanilla,0,0.0,0.378,116.043,no delivery scheduled next week; low weeks of cover; low closing stock; repeated short deliveries,Raise an emergency top-up order
+2026-08-17,OUT0083,HoReCa,Nairobi,Burger Buns 6pk,14,1.12,0.375,101.931,far from depot; sales accelerating; low weeks of cover; low merchandiser coverage,Merchandiser check & reorder
+2026-08-17,OUT0187,Petrol Station,Western,Ice Cream 1L Vanilla,4,0.941,0.369,133.271,no delivery scheduled next week; low weeks of cover; repeated short deliveries; low merchandiser coverage,Raise an emergency top-up order
+2026-08-17,OUT0182,Petrol Station,Western,Cheddar 200g,4,0.516,0.355,207.83,far from depot; low weeks of cover; low merchandiser coverage; sales accelerating,Merchandiser check & reorder
+2026-08-17,OUT0078,HoReCa,Rift Valley,Bacon 250g,2,0.32,0.344,135.992,far from depot; low weeks of cover; low merchandiser coverage; sales accelerating; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0071,Petrol Station,Rift Valley,Fresh Milk 500ml,34,0.604,0.326,164.286,low weeks of cover; low merchandiser coverage; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0015,Supermarket,Coast,Yoghurt 500ml Vanilla,53,0.972,0.324,522.079,low weeks of cover; promotion next week; far from depot; no delivery scheduled next week,Increase next delivery for the promotion
+2026-08-17,OUT0021,HoReCa,Nairobi,Burger Buns 6pk,20,0.762,0.322,223.458,far from depot; low weeks of cover; low merchandiser coverage; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0132,Supermarket,Western,Fresh Milk 500ml,192,1.182,0.312,543.76,far from depot; low weeks of cover; low closing stock,Merchandiser check & reorder
+2026-08-17,OUT0194,Petrol Station,Nyanza,Long-life Milk 1L,13,0.776,0.308,79.934,low weeks of cover; far from depot; sales accelerating,Merchandiser check & reorder
+2026-08-17,OUT0182,Petrol Station,Western,Fresh Milk 500ml,51,1.283,0.302,90.477,far from depot; low merchandiser coverage,Merchandiser check & reorder
+2026-08-17,OUT0131,HoReCa,Central,Fresh Milk 500ml,46,0.776,0.301,158.81,low weeks of cover; low merchandiser coverage; far from depot,Merchandiser check & reorder
+2026-08-17,OUT0099,Supermarket,Rift Valley,Fresh Milk 500ml,162,0.952,0.301,549.012,promotion next week; low weeks of cover; no delivery scheduled next week,Increase next delivery for the promotion
+2026-08-17,OUT0194,Petrol Station,Nyanza,Fresh Milk 500ml,42,0.994,0.301,98.579,low weeks of cover; far from depot,Merchandiser check & reorder
+2026-08-17,OUT0175,Petrol Station,Coast,Fresh Milk 500ml,13,0.211,0.3,166.811,low weeks of cover; low merchandiser coverage; far from depot,Merchandiser check & reorder
+2026-08-17,OUT0168,HoReCa,Western,Ice Cream 1L Vanilla,3,0.462,0.289,170.081,far from depot; low weeks of cover; low merchandiser coverage; sales accelerating; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0088,Supermarket,Central,Fresh Milk 500ml,153,1.099,0.287,417.897,promotion next week; low weeks of cover,Increase next delivery for the promotion
+2026-08-17,OUT0203,Duka,Nairobi,Ice Cream 1L Vanilla,5,0.952,0.286,125.834,no delivery scheduled next week; low weeks of cover; repeated short deliveries,Raise an emergency top-up order
+2026-08-17,OUT0139,Petrol Station,Nairobi,Ice Cream 1L Chocolate,0,0.0,0.277,87.747,low weeks of cover; low merchandiser coverage; sales accelerating; far from depot; low closing stock,Merchandiser check & reorder
+2026-08-17,OUT0192,Supermarket,Coast,Fresh Milk 500ml,183,1.177,0.275,449.982,far from depot; low weeks of cover; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0080,Duka,Central,Butter 250g,0,0.0,0.273,79.542,far from depot; low weeks of cover; low merchandiser coverage; low closing stock,Merchandiser check & reorder
+2026-08-17,OUT0083,HoReCa,Nairobi,Greek Yoghurt 450g,10,1.176,0.261,117.623,promotion next week; far from depot; no delivery scheduled next week; low weeks of cover; low merchandiser coverage,Increase next delivery for the promotion
+2026-08-17,OUT0034,HoReCa,Central,Fresh Milk 500ml,54,1.085,0.26,101.336,low weeks of cover; far from depot; low merchandiser coverage,Merchandiser check & reorder
+2026-08-17,OUT0136,HoReCa,Nairobi,Fresh Milk 500ml,33,0.702,0.259,92.556,promotion next week; low weeks of cover; no delivery scheduled next week,Increase next delivery for the promotion
+2026-08-17,OUT0132,Supermarket,Western,Burger Buns 6pk,47,1.262,0.258,261.019,promotion next week; far from depot; low weeks of cover; no delivery scheduled next week,Increase next delivery for the promotion
+2026-08-17,OUT0074,Supermarket,Coast,Sausages 500g,44,0.842,0.244,915.77,low weeks of cover; promotion next week; no delivery scheduled next week; strong recent sales,Increase next delivery for the promotion
+2026-08-17,OUT0121,Supermarket,Central,Burger Buns 6pk,22,0.698,0.244,199.451,promotion next week; low weeks of cover; far from depot; no delivery scheduled next week,Increase next delivery for the promotion
+2026-08-17,OUT0034,HoReCa,Central,Yoghurt 500ml Strawberry,20,1.176,0.242,83.13,promotion next week; low weeks of cover; low merchandiser coverage; no delivery scheduled next week; far from depot,Increase next delivery for the promotion
+2026-08-17,OUT0083,HoReCa,Nairobi,Cheddar 200g,1,0.167,0.241,85.114,low weeks of cover; far from depot; low merchandiser coverage; low closing stock; sales accelerating,Merchandiser check & reorder
+2026-08-17,OUT0021,HoReCa,Nairobi,Fresh Milk 500ml,46,0.53,0.236,189.494,far from depot; low weeks of cover; low merchandiser coverage,Merchandiser check & reorder
+2026-08-17,OUT0048,Supermarket,Rift Valley,Bacon 250g,15,0.789,0.234,334.211,promotion next week; low weeks of cover; far from depot; no delivery scheduled next week; low closing stock,Increase next delivery for the promotion
+2026-08-17,OUT0067,Supermarket,Central,Butter 250g,18,1.014,0.23,236.067,far from depot; promotion next week; low weeks of cover; repeated short deliveries; strong recent sales,Increase next delivery for the promotion
+2026-08-17,OUT0109,HoReCa,Rift Valley,Ice Cream 1L Chocolate,8,0.97,0.229,170.908,promotion next week; low weeks of cover; no delivery scheduled next week; sales accelerating; low merchandiser coverage,Increase next delivery for the promotion
+2026-08-17,OUT0048,Supermarket,Rift Valley,Fresh Milk 500ml,82,0.36,0.226,551.413,promotion next week; far from depot; low weeks of cover,Increase next delivery for the promotion
+2026-08-17,OUT0160,Petrol Station,Nairobi,Yoghurt 500ml Strawberry,3,0.154,0.224,91.271,low weeks of cover; low merchandiser coverage; far from depot,Merchandiser check & reorder
+2026-08-17,OUT0219,HoReCa,Nairobi,Long-life Milk 1L,26,0.689,0.22,159.436,low weeks of cover; far from depot; no delivery scheduled next week; sales accelerating,Merchandiser check & reorder
+2026-08-17,OUT0195,Petrol Station,Nairobi,Yoghurt 250ml Kids,30,0.649,0.214,110.447,low weeks of cover; low merchandiser coverage; far from depot; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0021,HoReCa,Nairobi,Cheddar 200g,0,0.0,0.212,158.648,far from depot; low weeks of cover; sales accelerating; low merchandiser coverage; low closing stock,Merchandiser check & reorder
+2026-08-17,OUT0220,Supermarket,Nairobi,Yoghurt 250ml Kids,69,0.812,0.211,240.73,low weeks of cover; far from depot; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0111,Supermarket,Central,Long-life Milk 1L,56,1.126,0.209,212.526,promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales,Increase next delivery for the promotion
+2026-08-17,OUT0029,HoReCa,Coast,Fresh Milk 500ml,41,0.614,0.209,113.341,low weeks of cover; low merchandiser coverage; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0021,HoReCa,Nairobi,Greek Yoghurt 450g,3,0.279,0.208,118.998,far from depot; low weeks of cover; low merchandiser coverage; sales accelerating; low closing stock,Merchandiser check & reorder
+2026-08-17,OUT0074,Supermarket,Coast,Yoghurt 250ml Kids,0,0.0,0.206,323.661,promotion next week; low weeks of cover; no delivery scheduled next week; low closing stock,Increase next delivery for the promotion
+2026-08-17,OUT0060,Supermarket,Rift Valley,Burger Buns 6pk,0,0.0,0.206,333.463,promotion next week; low weeks of cover; no delivery scheduled next week; repeated short deliveries,Increase next delivery for the promotion
+2026-08-17,OUT0021,HoReCa,Nairobi,Ice Cream 1L Chocolate,1,0.114,0.206,160.505,far from depot; low weeks of cover; low merchandiser coverage; low closing stock; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0219,HoReCa,Nairobi,Butter 250g,13,0.612,0.204,254.641,low weeks of cover; far from depot; sales accelerating; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0038,Supermarket,Rift Valley,Greek Yoghurt 450g,28,0.957,0.204,401.41,promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales,Increase next delivery for the promotion
+2026-08-17,OUT0192,Supermarket,Coast,Yoghurt 500ml Vanilla,51,0.986,0.197,279.924,low weeks of cover; far from depot; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0104,HoReCa,Central,Fresh Milk 500ml,67,0.905,0.193,117.195,low weeks of cover; low merchandiser coverage; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0091,Supermarket,Nairobi,Ice Cream 1L Chocolate,22,0.727,0.193,633.017,promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales,Increase next delivery for the promotion
+2026-08-17,OUT0057,Duka,Central,Fresh Milk 500ml,8,0.121,0.192,98.37,promotion next week; low weeks of cover,Increase next delivery for the promotion
+2026-08-17,OUT0219,HoReCa,Nairobi,Yoghurt 500ml Vanilla,25,0.877,0.187,122.517,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0172,Supermarket,Nairobi,Fresh Milk 500ml,31,0.346,0.183,141.898,promotion next week; low weeks of cover; no delivery scheduled next week,Increase next delivery for the promotion
+2026-08-17,OUT0048,Supermarket,Rift Valley,Long-life Milk 1L,80,0.901,0.182,357.212,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0009,HoReCa,Nairobi,Yoghurt 500ml Strawberry,38,0.859,0.178,205.72,low weeks of cover; low merchandiser coverage; no delivery scheduled next week; far from depot,Merchandiser check & reorder
+2026-08-17,OUT0220,Supermarket,Nairobi,Yoghurt 500ml Strawberry,47,0.752,0.178,310.749,low weeks of cover; far from depot; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0215,Supermarket,Central,Yoghurt 250ml Kids,77,0.851,0.174,205.719,low weeks of cover; far from depot; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0071,Petrol Station,Rift Valley,Cheddar 200g,11,1.257,0.173,91.977,no delivery scheduled next week; low merchandiser coverage; repeated short deliveries; sales accelerating,Raise an emergency top-up order
+2026-08-17,OUT0022,Supermarket,Nairobi,Yoghurt 500ml Vanilla,23,0.702,0.172,132.515,promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales,Increase next delivery for the promotion
+2026-08-17,OUT0157,Supermarket,Nairobi,Greek Yoghurt 450g,9,0.878,0.172,83.255,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries; low closing stock,Merchandiser check & reorder
+2026-08-17,OUT0202,Supermarket,Western,Yoghurt 250ml Kids,84,0.792,0.172,245.076,low weeks of cover; far from depot; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0108,Supermarket,Nairobi,Mozzarella 200g,8,0.696,0.171,148.66,promotion next week; low weeks of cover; no delivery scheduled next week; low closing stock,Increase next delivery for the promotion
+2026-08-17,OUT0015,Supermarket,Coast,Fresh Milk 500ml,149,0.812,0.171,317.74,low weeks of cover; far from depot; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0109,HoReCa,Rift Valley,Yoghurt 500ml Strawberry,17,0.716,0.169,80.11,low weeks of cover; low merchandiser coverage; no delivery scheduled next week; recent stock-out history,Merchandiser check & reorder
+2026-08-17,OUT0200,HoReCa,Nairobi,Ice Cream 1L Vanilla,3,0.414,0.169,93.288,low weeks of cover; low merchandiser coverage; no delivery scheduled next week; far from depot,Merchandiser check & reorder
+2026-08-17,OUT0015,Supermarket,Coast,Mozzarella 200g,21,0.913,0.168,339.371,low weeks of cover; far from depot; repeated short deliveries; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0079,Supermarket,Central,Long-life Milk 1L,6,0.161,0.166,105.668,promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales,Increase next delivery for the promotion
+2026-08-17,OUT0198,HoReCa,Nyanza,Yoghurt 250ml Kids,48,0.807,0.165,109.299,low weeks of cover; no delivery scheduled next week; low merchandiser coverage,Merchandiser check & reorder
+2026-08-17,OUT0132,Supermarket,Western,Yoghurt 250ml Kids,60,0.787,0.164,152.568,low weeks of cover; far from depot; no delivery scheduled next week; sales accelerating,Merchandiser check & reorder
+2026-08-17,OUT0114,HoReCa,Nairobi,Mozzarella 200g,5,0.541,0.163,101.725,promotion next week; low weeks of cover; low merchandiser coverage; no delivery scheduled next week,Increase next delivery for the promotion
+2026-08-17,OUT0015,Supermarket,Coast,Sausages 500g,36,0.873,0.161,451.057,low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0215,Supermarket,Central,Ice Cream 1L Chocolate,16,0.831,0.159,307.846,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0110,Supermarket,Nairobi,Yoghurt 500ml Vanilla,32,0.785,0.156,156.033,promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales,Increase next delivery for the promotion
+2026-08-17,OUT0121,Supermarket,Central,Mozzarella 200g,8,0.727,0.156,122.82,promotion next week; low weeks of cover; far from depot; low closing stock; sales accelerating,Increase next delivery for the promotion
+2026-08-17,OUT0101,Supermarket,Nairobi,Long-life Milk 1L,46,0.929,0.156,144.024,low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0070,Supermarket,Central,Fresh Milk 500ml,104,1.017,0.155,135.644,low weeks of cover; far from depot; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0202,Supermarket,Western,Burger Buns 6pk,50,0.873,0.155,237.363,low weeks of cover; far from depot; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0184,Supermarket,Central,Fresh Milk 500ml,186,1.075,0.151,256.325,low weeks of cover; no delivery scheduled next week; low closing stock,Merchandiser check & reorder
+2026-08-17,OUT0007,Supermarket,Rift Valley,Long-life Milk 1L,44,1.285,0.151,80.226,promotion next week; no delivery scheduled next week; repeated short deliveries,Increase next delivery for the promotion
+2026-08-17,OUT0108,Supermarket,Nairobi,Fresh Milk 500ml,107,0.888,0.145,155.06,low weeks of cover; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0202,Supermarket,Western,Yoghurt 500ml Vanilla,50,0.725,0.145,274.48,low weeks of cover; far from depot; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0215,Supermarket,Central,Ice Cream 1L Vanilla,20,0.93,0.145,314.114,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0199,Supermarket,Coast,Sausages 500g,30,1.017,0.144,271.361,promotion next week; low weeks of cover; no delivery scheduled next week; sales accelerating,Increase next delivery for the promotion
+2026-08-17,OUT0132,Supermarket,Western,Butter 250g,30,0.923,0.144,277.456,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0207,Supermarket,Nairobi,Burger Buns 6pk,38,0.788,0.143,174.019,promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales,Increase next delivery for the promotion
+2026-08-17,OUT0220,Supermarket,Nairobi,Yoghurt 500ml Vanilla,46,1.005,0.143,162.336,low weeks of cover; far from depot; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0157,Supermarket,Nairobi,Fresh Milk 500ml,56,0.725,0.142,78.283,low weeks of cover; far from depot; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0015,Supermarket,Coast,Burger Buns 6pk,53,1.277,0.14,138.915,far from depot; low weeks of cover; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0128,Supermarket,Nairobi,Greek Yoghurt 450g,11,0.846,0.139,86.308,promotion next week; low weeks of cover; no delivery scheduled next week; sales accelerating; low closing stock,Increase next delivery for the promotion
+2026-08-17,OUT0133,Supermarket,Central,Long-life Milk 1L,34,0.85,0.138,89.553,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0101,Supermarket,Nairobi,Greek Yoghurt 450g,12,0.857,0.137,94.548,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0099,Supermarket,Rift Valley,Long-life Milk 1L,47,0.616,0.136,211.271,promotion next week; low weeks of cover; no delivery scheduled next week,Increase next delivery for the promotion
+2026-08-17,OUT0041,Supermarket,Nyanza,Bacon 250g,14,0.848,0.135,142.725,low weeks of cover; far from depot; repeated short deliveries; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0073,Supermarket,Coast,Mozzarella 200g,7,0.718,0.135,82.534,far from depot; low weeks of cover; low closing stock; repeated short deliveries; recent stock-out history,Merchandiser check & reorder
+2026-08-17,OUT0121,Supermarket,Central,Greek Yoghurt 450g,15,0.896,0.134,119.998,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries; sales accelerating,Merchandiser check & reorder
+2026-08-17,OUT0192,Supermarket,Coast,Butter 250g,31,1.17,0.134,199.555,far from depot; low weeks of cover; sales accelerating; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0048,Supermarket,Rift Valley,Burger Buns 6pk,28,0.626,0.133,142.799,far from depot; low weeks of cover; sales accelerating; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0061,Supermarket,Nairobi,Long-life Milk 1L,42,0.781,0.133,130.096,low weeks of cover; no delivery scheduled next week; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0195,Petrol Station,Nairobi,Cheddar 200g,6,0.436,0.132,119.249,low weeks of cover; low merchandiser coverage; far from depot,Merchandiser check & reorder
+2026-08-17,OUT0173,Supermarket,Nyanza,Fresh Milk 500ml,205,1.16,0.131,221.769,low weeks of cover; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0015,Supermarket,Coast,Butter 250g,29,0.906,0.131,245.129,low weeks of cover; far from depot; low closing stock; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0008,Supermarket,Nairobi,Yoghurt 500ml Vanilla,34,0.907,0.131,109.561,low weeks of cover; far from depot; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0220,Supermarket,Nairobi,Bacon 250g,15,1.053,0.131,111.533,far from depot; low weeks of cover; repeated short deliveries; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0089,Supermarket,Western,Fresh Milk 500ml,0,0.0,0.13,133.485,promotion next week; low weeks of cover; repeated short deliveries,Increase next delivery for the promotion
+2026-08-17,OUT0042,Supermarket,Coast,Ice Cream 1L Chocolate,23,0.968,0.13,309.903,promotion next week; low weeks of cover; no delivery scheduled next week; repeated short deliveries,Increase next delivery for the promotion
+2026-08-17,OUT0217,Supermarket,Rift Valley,Long-life Milk 1L,54,0.803,0.128,167.095,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0133,Supermarket,Central,Butter 250g,15,0.75,0.128,129.586,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0157,Supermarket,Nairobi,Butter 250g,14,0.949,0.128,82.185,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0215,Supermarket,Central,Butter 250g,30,0.945,0.127,233.595,low weeks of cover; far from depot; sales accelerating; repeated short deliveries; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0198,HoReCa,Nyanza,Yoghurt 500ml Strawberry,19,0.49,0.127,109.288,low weeks of cover; no delivery scheduled next week; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0073,Supermarket,Coast,Ice Cream 1L Vanilla,9,0.6,0.126,170.761,promotion next week; far from depot; low weeks of cover; no delivery scheduled next week; low closing stock,Increase next delivery for the promotion
+2026-08-17,OUT0220,Supermarket,Nairobi,Greek Yoghurt 450g,19,0.679,0.126,216.209,low weeks of cover; far from depot; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0110,Supermarket,Nairobi,Cheddar 200g,20,0.816,0.125,237.36,promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales,Increase next delivery for the promotion
+2026-08-17,OUT0048,Supermarket,Rift Valley,Butter 250g,34,0.819,0.125,314.506,low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0040,Supermarket,Western,Fresh Milk 500ml,47,0.536,0.125,78.404,promotion next week; no delivery scheduled next week; far from depot,Increase next delivery for the promotion
+2026-08-17,OUT0054,Supermarket,Central,Yoghurt 500ml Vanilla,32,0.895,0.124,93.544,low weeks of cover; sales accelerating; no delivery scheduled next week; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0132,Supermarket,Western,Ice Cream 1L Vanilla,20,0.952,0.123,252.627,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries; sales accelerating,Merchandiser check & reorder
+2026-08-17,OUT0041,Supermarket,Nyanza,Greek Yoghurt 450g,27,0.878,0.123,235.924,low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0048,Supermarket,Rift Valley,Yoghurt 500ml Strawberry,38,0.489,0.123,259.034,low weeks of cover; far from depot; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0192,Supermarket,Coast,Burger Buns 6pk,21,0.56,0.121,97.108,far from depot; low weeks of cover; sales accelerating; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0074,Supermarket,Coast,Greek Yoghurt 450g,31,0.899,0.12,263.762,low weeks of cover; sales accelerating; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0151,Supermarket,Coast,Fresh Milk 500ml,106,0.841,0.12,126.435,low weeks of cover; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0220,Supermarket,Nairobi,Cheddar 200g,26,0.812,0.119,306.845,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0073,Supermarket,Coast,Yoghurt 500ml Strawberry,39,1.173,0.119,78.177,promotion next week; far from depot; low weeks of cover; repeated short deliveries,Increase next delivery for the promotion
+2026-08-17,OUT0048,Supermarket,Rift Valley,Ice Cream 1L Chocolate,20,0.964,0.119,238.78,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0121,Supermarket,Central,Yoghurt 500ml Strawberry,48,1.021,0.119,130.958,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0202,Supermarket,Western,Fresh Milk 500ml,277,1.145,0.119,285.808,low weeks of cover; far from depot; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0219,HoReCa,Nairobi,Sausages 500g,20,0.93,0.118,141.315,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries; low merchandiser coverage,Merchandiser check & reorder
+2026-08-17,OUT0217,Supermarket,Rift Valley,Yoghurt 250ml Kids,46,0.639,0.117,86.944,promotion next week; low weeks of cover; no delivery scheduled next week; far from depot,Increase next delivery for the promotion
+2026-08-17,OUT0202,Supermarket,Western,Greek Yoghurt 450g,30,0.984,0.117,219.655,low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0021,HoReCa,Nairobi,Butter 250g,6,0.364,0.116,84.306,far from depot; low weeks of cover; low merchandiser coverage; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0091,Supermarket,Nairobi,Yoghurt 250ml Kids,89,0.776,0.116,164.934,low weeks of cover; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0184,Supermarket,Central,Long-life Milk 1L,51,0.729,0.115,152.611,low weeks of cover; no delivery scheduled next week; far from depot,Merchandiser check & reorder
+2026-08-17,OUT0049,Supermarket,Western,Butter 250g,7,0.262,0.113,162.276,promotion next week; low weeks of cover; no delivery scheduled next week; repeated short deliveries,Increase next delivery for the promotion
+2026-08-17,OUT0220,Supermarket,Nairobi,Long-life Milk 1L,75,0.99,0.112,163.387,low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0036,Supermarket,Central,Sausages 500g,32,0.853,0.111,265.765,low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0113,Supermarket,Central,Greek Yoghurt 450g,10,0.615,0.111,86.202,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0038,Supermarket,Rift Valley,Butter 250g,16,0.34,0.11,313.811,promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries,Increase next delivery for the promotion
+2026-08-17,OUT0001,Supermarket,Coast,Fresh Milk 500ml,252,0.93,0.11,298.484,low weeks of cover; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0067,Supermarket,Central,Mozzarella 200g,4,0.302,0.109,95.737,far from depot; low weeks of cover; repeated short deliveries; low closing stock,Merchandiser check & reorder
+2026-08-17,OUT0041,Supermarket,Nyanza,Ice Cream 1L Chocolate,16,0.711,0.108,234.804,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0101,Supermarket,Nairobi,Ice Cream 1L Vanilla,13,0.945,0.108,123.525,low weeks of cover; far from depot; repeated short deliveries; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0001,Supermarket,Coast,Butter 250g,31,0.59,0.107,344.553,promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales,Increase next delivery for the promotion
+2026-08-17,OUT0088,Supermarket,Central,Yoghurt 500ml Vanilla,50,1.19,0.105,93.095,promotion next week; low weeks of cover; strong recent sales,Increase next delivery for the promotion
+2026-08-17,OUT0036,Supermarket,Central,Cheddar 200g,22,0.926,0.104,181.877,low weeks of cover; no delivery scheduled next week; repeated short deliveries; sales accelerating,Merchandiser check & reorder
+2026-08-17,OUT0030,Supermarket,Coast,Yoghurt 500ml Strawberry,39,0.923,0.104,92.15,low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0061,Supermarket,Nairobi,Ice Cream 1L Chocolate,10,0.769,0.103,107.097,low weeks of cover; no delivery scheduled next week; far from depot; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0060,Supermarket,Rift Valley,Fresh Milk 500ml,260,1.001,0.103,263.585,low weeks of cover; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0015,Supermarket,Coast,Greek Yoghurt 450g,16,0.674,0.103,134.047,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0111,Supermarket,Central,Yoghurt 500ml Strawberry,41,0.792,0.102,120.838,low weeks of cover; no delivery scheduled next week; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0041,Supermarket,Nyanza,Cheddar 200g,28,0.8,0.101,280.296,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0173,Supermarket,Nyanza,Yoghurt 500ml Vanilla,46,1.005,0.101,99.352,low weeks of cover; no delivery scheduled next week; far from depot,Merchandiser check & reorder
+2026-08-17,OUT0066,Supermarket,Rift Valley,Cheddar 200g,18,0.75,0.1,175.456,low weeks of cover; no delivery scheduled next week; sales accelerating; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0133,Supermarket,Central,Ice Cream 1L Chocolate,9,0.692,0.1,101.889,low weeks of cover; far from depot; no delivery scheduled next week; sales accelerating; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0091,Supermarket,Nairobi,Long-life Milk 1L,56,0.523,0.1,218.295,promotion next week; low weeks of cover; no delivery scheduled next week,Increase next delivery for the promotion
+2026-08-17,OUT0004,Supermarket,Central,Ice Cream 1L Vanilla,25,1.01,0.098,235.177,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0101,Supermarket,Nairobi,Ice Cream 1L Chocolate,11,0.88,0.098,93.125,low weeks of cover; far from depot; low closing stock; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0054,Supermarket,Central,Butter 250g,31,0.976,0.097,165.463,low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0088,Supermarket,Central,Cheddar 200g,22,0.936,0.096,160.134,low weeks of cover; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0151,Supermarket,Coast,Sausages 500g,17,0.861,0.095,92.196,low weeks of cover; no delivery scheduled next week; repeated short deliveries; recent stock-out history,Merchandiser check & reorder
+2026-08-17,OUT0101,Supermarket,Nairobi,Cheddar 200g,19,1.027,0.095,114.007,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0036,Supermarket,Central,Ice Cream 1L Vanilla,19,0.835,0.095,201.663,low weeks of cover; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0073,Supermarket,Coast,Cheddar 200g,0,0.0,0.094,113.246,far from depot; sales accelerating; low weeks of cover; low closing stock; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0215,Supermarket,Central,Long-life Milk 1L,70,1.065,0.094,104.983,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0041,Supermarket,Nyanza,Burger Buns 6pk,35,0.725,0.093,95.12,low weeks of cover; far from depot; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0074,Supermarket,Coast,Yoghurt 500ml Vanilla,28,0.426,0.093,147.699,promotion next week; low weeks of cover; no delivery scheduled next week; sales accelerating,Increase next delivery for the promotion
+2026-08-17,OUT0030,Supermarket,Coast,Fresh Milk 500ml,88,0.73,0.093,80.783,low weeks of cover; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0048,Supermarket,Rift Valley,Yoghurt 500ml Vanilla,21,0.311,0.093,152.427,low weeks of cover; far from depot; no delivery scheduled next week; sales accelerating,Merchandiser check & reorder
+2026-08-17,OUT0061,Supermarket,Nairobi,Cheddar 200g,17,0.872,0.092,117.935,low weeks of cover; no delivery scheduled next week; repeated short deliveries; far from depot,Merchandiser check & reorder
+2026-08-17,OUT0089,Supermarket,Western,Cheddar 200g,17,0.932,0.092,106.851,low weeks of cover; no delivery scheduled next week; repeated short deliveries; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0001,Supermarket,Coast,Yoghurt 500ml Vanilla,66,0.852,0.092,180.317,low weeks of cover; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0207,Supermarket,Nairobi,Cheddar 200g,29,0.991,0.092,200.556,low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0133,Supermarket,Central,Cheddar 200g,19,1.0,0.09,109.742,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0121,Supermarket,Central,Butter 250g,23,1.07,0.09,85.542,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0192,Supermarket,Coast,Ice Cream 1L Chocolate,12,0.716,0.09,125.954,low weeks of cover; far from depot; low closing stock; repeated short deliveries; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0111,Supermarket,Central,Sausages 500g,26,0.904,0.09,144.893,low weeks of cover; no delivery scheduled next week; repeated short deliveries; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0198,HoReCa,Nyanza,Sausages 500g,23,0.92,0.088,115.502,low weeks of cover; no delivery scheduled next week; repeated short deliveries; low merchandiser coverage,Merchandiser check & reorder
+2026-08-17,OUT0038,Supermarket,Rift Valley,Long-life Milk 1L,82,0.859,0.087,160.067,low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0121,Supermarket,Central,Cheddar 200g,9,0.434,0.086,117.604,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries; low closing stock,Merchandiser check & reorder
+2026-08-17,OUT0202,Supermarket,Western,Yoghurt 500ml Strawberry,36,0.442,0.086,177.209,low weeks of cover; far from depot; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0091,Supermarket,Nairobi,Greek Yoghurt 450g,26,0.776,0.086,167.624,low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0008,Supermarket,Nairobi,Ice Cream 1L Vanilla,12,0.676,0.084,125.411,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0038,Supermarket,Rift Valley,Yoghurt 500ml Strawberry,85,0.994,0.084,183.732,low weeks of cover; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0091,Supermarket,Nairobi,Fresh Milk 500ml,182,0.719,0.084,199.917,low weeks of cover; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0173,Supermarket,Nyanza,Sausages 500g,18,0.522,0.084,169.636,low weeks of cover; no delivery scheduled next week; repeated short deliveries; far from depot,Merchandiser check & reorder
+2026-08-17,OUT0054,Supermarket,Central,Ice Cream 1L Chocolate,12,0.676,0.083,121.796,low weeks of cover; no delivery scheduled next week; repeated short deliveries; low closing stock,Merchandiser check & reorder
+2026-08-17,OUT0220,Supermarket,Nairobi,Ice Cream 1L Chocolate,19,1.134,0.083,112.059,low weeks of cover; far from depot; sales accelerating; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0202,Supermarket,Western,Ice Cream 1L Vanilla,16,0.52,0.082,245.958,low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0064,Supermarket,Central,Sausages 500g,15,0.69,0.082,84.751,low weeks of cover; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0169,Supermarket,Nyanza,Fresh Milk 500ml,40,0.243,0.082,107.356,low weeks of cover; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0113,Supermarket,Central,Sausages 500g,28,1.067,0.082,111.809,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0116,Supermarket,Western,Sausages 500g,39,0.804,0.081,245.421,low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0015,Supermarket,Coast,Cheddar 200g,12,0.414,0.08,168.47,promotion next week; far from depot; low weeks of cover; low closing stock; strong recent sales,Increase next delivery for the promotion
+2026-08-17,OUT0202,Supermarket,Western,Mozzarella 200g,25,1.053,0.08,141.719,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0054,Supermarket,Central,Cheddar 200g,20,0.708,0.079,159.944,low weeks of cover; no delivery scheduled next week; repeated short deliveries; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0008,Supermarket,Nairobi,Butter 250g,25,1.042,0.079,82.729,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0198,HoReCa,Nyanza,Cheddar 200g,18,1.0,0.078,81.223,low weeks of cover; no delivery scheduled next week; repeated short deliveries; low merchandiser coverage,Merchandiser check & reorder
+2026-08-17,OUT0038,Supermarket,Rift Valley,Sausages 500g,33,0.71,0.078,222.499,low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0042,Supermarket,Coast,Butter 250g,40,0.988,0.077,170.106,low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0121,Supermarket,Central,Ice Cream 1L Vanilla,0,0.0,0.077,139.19,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries; low closing stock,Merchandiser check & reorder
+2026-08-17,OUT0001,Supermarket,Coast,Burger Buns 6pk,49,0.766,0.077,109.19,low weeks of cover; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0038,Supermarket,Rift Valley,Mozzarella 200g,6,0.308,0.077,100.738,low weeks of cover; sales accelerating; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0038,Supermarket,Rift Valley,Ice Cream 1L Vanilla,27,0.794,0.076,252.614,low weeks of cover; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0113,Supermarket,Central,Ice Cream 1L Vanilla,17,1.153,0.076,81.003,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0150,Supermarket,Nairobi,Sausages 500g,32,0.703,0.075,208.822,low weeks of cover; no delivery scheduled next week; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0009,HoReCa,Nairobi,Cheddar 200g,20,1.013,0.075,87.855,low weeks of cover; no delivery scheduled next week; low merchandiser coverage; far from depot,Merchandiser check & reorder
+2026-08-17,OUT0150,Supermarket,Nairobi,Mozzarella 200g,22,0.907,0.074,131.113,low weeks of cover; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0048,Supermarket,Rift Valley,Mozzarella 200g,40,1.702,0.074,125.236,promotion next week; far from depot; no delivery scheduled next week; repeated short deliveries,Increase next delivery for the promotion
+2026-08-17,OUT0067,Supermarket,Central,Ice Cream 1L Vanilla,15,0.923,0.074,90.471,low weeks of cover; far from depot; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0202,Supermarket,Western,Long-life Milk 1L,105,1.022,0.073,139.781,low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0202,Supermarket,Western,Sausages 500g,23,0.447,0.073,234.676,low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0054,Supermarket,Central,Sausages 500g,23,0.639,0.072,146.178,low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0066,Supermarket,Rift Valley,Sausages 500g,24,0.756,0.072,122.472,low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0173,Supermarket,Nyanza,Cheddar 200g,25,1.031,0.071,111.803,low weeks of cover; no delivery scheduled next week; far from depot; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0074,Supermarket,Coast,Fresh Milk 500ml,154,0.589,0.071,166.954,low weeks of cover; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0060,Supermarket,Rift Valley,Yoghurt 250ml Kids,46,0.35,0.071,100.453,low weeks of cover; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0004,Supermarket,Central,Yoghurt 500ml Strawberry,44,0.519,0.071,144.077,low weeks of cover; no delivery scheduled next week; far from depot; sales accelerating,Merchandiser check & reorder
+2026-08-17,OUT0004,Supermarket,Central,Greek Yoghurt 450g,21,0.757,0.07,97.207,low weeks of cover; far from depot; low closing stock; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0150,Supermarket,Nairobi,Ice Cream 1L Vanilla,22,0.989,0.069,130.269,low weeks of cover; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0111,Supermarket,Central,Ice Cream 1L Chocolate,16,0.941,0.066,81.907,low weeks of cover; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0116,Supermarket,Western,Cheddar 200g,35,0.933,0.064,176.264,low weeks of cover; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0074,Supermarket,Coast,Butter 250g,45,1.029,0.064,147.535,low weeks of cover; sales accelerating; no delivery scheduled next week; strong recent sales; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0060,Supermarket,Rift Valley,Sausages 500g,43,0.782,0.064,217.226,low weeks of cover; no delivery scheduled next week; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0202,Supermarket,Western,Ice Cream 1L Chocolate,26,1.061,0.064,133.16,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0048,Supermarket,Rift Valley,Cheddar 200g,3,0.076,0.064,184.056,far from depot; low weeks of cover; no delivery scheduled next week; low closing stock; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0041,Supermarket,Nyanza,Ice Cream 1L Vanilla,31,1.159,0.063,148.675,low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0184,Supermarket,Central,Ice Cream 1L Vanilla,13,0.684,0.063,91.071,low weeks of cover; far from depot; repeated short deliveries; low closing stock,Merchandiser check & reorder
+2026-08-17,OUT0169,Supermarket,Nyanza,Cheddar 200g,0,0.0,0.063,84.944,promotion next week; low weeks of cover; low closing stock; repeated short deliveries,Increase next delivery for the promotion
+2026-08-17,OUT0042,Supermarket,Coast,Cheddar 200g,23,0.692,0.062,143.318,low weeks of cover; no delivery scheduled next week; sales accelerating; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0116,Supermarket,Western,Yoghurt 500ml Strawberry,66,0.805,0.061,113.1,low weeks of cover; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0054,Supermarket,Central,Fresh Milk 500ml,117,0.589,0.059,86.031,low weeks of cover; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0074,Supermarket,Coast,Long-life Milk 1L,36,0.333,0.059,109.689,low weeks of cover; no delivery scheduled next week; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0042,Supermarket,Coast,Fresh Milk 500ml,51,0.227,0.058,101.806,low weeks of cover; no delivery scheduled next week,Merchandiser check & reorder
+2026-08-17,OUT0053,Supermarket,Western,Cheddar 200g,0,0.0,0.057,102.855,low weeks of cover; low closing stock; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0091,Supermarket,Nairobi,Sausages 500g,50,1.058,0.056,150.248,low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0060,Supermarket,Rift Valley,Long-life Milk 1L,60,0.499,0.056,118.846,low weeks of cover; no delivery scheduled next week; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0038,Supermarket,Rift Valley,Cheddar 200g,36,1.036,0.054,124.1,low weeks of cover; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0004,Supermarket,Central,Fresh Milk 500ml,2,0.009,0.053,88.446,low weeks of cover; far from depot; low closing stock,Merchandiser check & reorder
+2026-08-17,OUT0060,Supermarket,Rift Valley,Yoghurt 500ml Strawberry,75,0.665,0.053,144.594,low weeks of cover; no delivery scheduled next week; strong recent sales,Merchandiser check & reorder
+2026-08-17,OUT0169,Supermarket,Nyanza,Ice Cream 1L Vanilla,13,0.605,0.052,80.007,promotion next week; low weeks of cover; repeated short deliveries,Increase next delivery for the promotion
+2026-08-17,OUT0192,Supermarket,Coast,Ice Cream 1L Vanilla,3,0.135,0.052,84.412,far from depot; low weeks of cover; repeated short deliveries; low closing stock,Merchandiser check & reorder
+2026-08-17,OUT0048,Supermarket,Rift Valley,Ice Cream 1L Vanilla,9,0.31,0.051,121.873,far from depot; low weeks of cover; low closing stock; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0116,Supermarket,Western,Butter 250g,39,1.013,0.049,81.529,low weeks of cover; no delivery scheduled next week; repeated short deliveries; sales accelerating,Merchandiser check & reorder
+2026-08-17,OUT0042,Supermarket,Coast,Yoghurt 500ml Strawberry,100,1.136,0.048,85.75,low weeks of cover; no delivery scheduled next week; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0207,Supermarket,Nairobi,Ice Cream 1L Vanilla,3,0.102,0.044,102.95,low weeks of cover; no delivery scheduled next week; low closing stock; sales accelerating; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0042,Supermarket,Coast,Sausages 500g,27,0.532,0.037,91.398,low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries,Merchandiser check & reorder
+2026-08-17,OUT0001,Supermarket,Coast,Yoghurt 500ml Strawberry,13,0.115,0.035,77.948,low weeks of cover; no delivery scheduled next week; sales accelerating; repeated short deliveries,Merchandiser check & reorder

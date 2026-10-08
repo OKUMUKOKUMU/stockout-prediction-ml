@@ -1,0 +1,310 @@
+You are a supply-chain analyst for an FMCG dairy distributor in Kenya.
+Below are this week's stock-out alerts produced by a machine-learning model, one line per
+outlet-SKU, with the model's risk score and the main reasons (from SHAP).
+
+Write a briefing for each REGION's sales manager:
+- 2-3 sentences on the overall picture (number of alerts, main causes)
+- the 3 most urgent actions, naming outlet and SKU
+- keep it under 120 words per region, plain English, no jargon
+
+ALERTS (region | outlet | channel | SKU | risk | reasons | suggested action):
+Nairobi | OUT0097 | Petrol Station | Fresh Milk 500ml | 88% | no delivery scheduled next week; low weeks of cover; low merchandiser coverage | Raise an emergency top-up order
+Coast | OUT0125 | Duka | Yoghurt 250ml Kids | 88% | no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries | Raise an emergency top-up order
+Central | OUT0080 | Duka | Yoghurt 500ml Strawberry | 85% | low weeks of cover; no delivery scheduled next week; low merchandiser coverage; far from depot | Raise an emergency top-up order
+Central | OUT0142 | Duka | Yoghurt 500ml Vanilla | 82% | no delivery scheduled next week; low weeks of cover; low merchandiser coverage; sales accelerating | Raise an emergency top-up order
+Nyanza | OUT0144 | Petrol Station | Bacon 250g | 79% | no delivery scheduled next week; low weeks of cover; sales accelerating; low merchandiser coverage | Raise an emergency top-up order
+Nyanza | OUT0011 | Duka | Fresh Milk 500ml | 78% | no delivery scheduled next week; low weeks of cover; low merchandiser coverage | Raise an emergency top-up order
+Western | OUT0174 | Petrol Station | Burger Buns 6pk | 76% | promotion next week; no delivery scheduled next week; sales accelerating; repeated short deliveries | Raise an emergency top-up order
+Western | OUT0187 | Petrol Station | Yoghurt 250ml Kids | 76% | no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries | Raise an emergency top-up order
+Western | OUT0035 | Duka | Mozzarella 200g | 75% | low weeks of cover; no delivery scheduled next week; low merchandiser coverage; low closing stock | Raise an emergency top-up order
+Nyanza | OUT0144 | Petrol Station | Fresh Milk 500ml | 74% | no delivery scheduled next week; sales accelerating; low weeks of cover | Raise an emergency top-up order
+Central | OUT0183 | Duka | Burger Buns 6pk | 74% | promotion next week; no delivery scheduled next week; repeated short deliveries | Raise an emergency top-up order
+Western | OUT0164 | Duka | Sausages 500g | 74% | no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries | Raise an emergency top-up order
+Central | OUT0023 | Duka | Yoghurt 500ml Strawberry | 71% | no delivery scheduled next week; promotion next week; low weeks of cover; low merchandiser coverage | Raise an emergency top-up order
+Rift Valley | OUT0071 | Petrol Station | Yoghurt 500ml Vanilla | 70% | low weeks of cover; no delivery scheduled next week; low merchandiser coverage; repeated short deliveries | Raise an emergency top-up order
+Central | OUT0018 | Duka | Ice Cream 1L Chocolate | 67% | low weeks of cover; sales accelerating; no delivery scheduled next week; low merchandiser coverage | Raise an emergency top-up order
+Nairobi | OUT0051 | Duka | Greek Yoghurt 450g | 66% | no delivery scheduled next week; low weeks of cover; low merchandiser coverage | Raise an emergency top-up order
+Central | OUT0193 | Duka | Yoghurt 500ml Vanilla | 66% | no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries | Raise an emergency top-up order
+Coast | OUT0058 | Duka | Long-life Milk 1L | 64% | no delivery scheduled next week; low weeks of cover; promotion next week | Raise an emergency top-up order
+Nairobi | OUT0068 | Duka | Greek Yoghurt 450g | 64% | low weeks of cover; no delivery scheduled next week; low merchandiser coverage | Raise an emergency top-up order
+Western | OUT0187 | Petrol Station | Long-life Milk 1L | 64% | promotion next week; no delivery scheduled next week; sales accelerating; repeated short deliveries | Raise an emergency top-up order
+Central | OUT0193 | Duka | Sausages 500g | 63% | low weeks of cover; no delivery scheduled next week; low merchandiser coverage; repeated short deliveries | Raise an emergency top-up order
+Nairobi | OUT0203 | Duka | Fresh Milk 500ml | 63% | no delivery scheduled next week; sales accelerating; repeated short deliveries | Raise an emergency top-up order
+Western | OUT0164 | Duka | Yoghurt 500ml Vanilla | 61% | no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries | Raise an emergency top-up order
+Western | OUT0182 | Petrol Station | Sausages 500g | 60% | low weeks of cover; no delivery scheduled next week; low merchandiser coverage; far from depot | Raise an emergency top-up order
+Rift Valley | OUT0208 | Duka | Ice Cream 1L Vanilla | 59% | no delivery scheduled next week; low weeks of cover; sales accelerating | Raise an emergency top-up order
+Rift Valley | OUT0085 | Duka | Yoghurt 500ml Strawberry | 55% | no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries | Raise an emergency top-up order
+Central | OUT0080 | Duka | Fresh Milk 500ml | 54% | no delivery scheduled next week; far from depot | Raise an emergency top-up order
+Nairobi | OUT0146 | Petrol Station | Butter 250g | 54% | no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries | Raise an emergency top-up order
+Rift Valley | OUT0196 | Petrol Station | Sausages 500g | 54% | no delivery scheduled next week; promotion next week; low weeks of cover; repeated short deliveries | Raise an emergency top-up order
+Central | OUT0018 | Duka | Burger Buns 6pk | 52% | far from depot; low weeks of cover; low merchandiser coverage; sales accelerating | Merchandiser check & reorder
+Rift Valley | OUT0205 | Duka | Sausages 500g | 52% | no delivery scheduled next week; low weeks of cover; low merchandiser coverage; sales accelerating | Raise an emergency top-up order
+Western | OUT0182 | Petrol Station | Greek Yoghurt 450g | 52% | promotion next week; no delivery scheduled next week; far from depot; low weeks of cover | Raise an emergency top-up order
+Central | OUT0213 | Duka | Fresh Milk 500ml | 50% | far from depot; low weeks of cover; low merchandiser coverage | Merchandiser check & reorder
+Central | OUT0193 | Duka | Ice Cream 1L Vanilla | 50% | no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries | Raise an emergency top-up order
+Western | OUT0168 | HoReCa | Yoghurt 500ml Strawberry | 48% | far from depot; promotion next week; low weeks of cover; low merchandiser coverage; low closing stock | Increase next delivery for the promotion
+Nairobi | OUT0016 | Petrol Station | Bacon 250g | 47% | no delivery scheduled next week; low weeks of cover; repeated short deliveries | Raise an emergency top-up order
+Rift Valley | OUT0170 | Duka | Mozzarella 200g | 46% | no delivery scheduled next week; low weeks of cover; low merchandiser coverage | Raise an emergency top-up order
+Nairobi | OUT0139 | Petrol Station | Bacon 250g | 46% | low weeks of cover; no delivery scheduled next week; sales accelerating; low merchandiser coverage | Raise an emergency top-up order
+Central | OUT0153 | Duka | Fresh Milk 500ml | 45% | far from depot; low weeks of cover; low merchandiser coverage | Merchandiser check & reorder
+Central | OUT0057 | Duka | Yoghurt 250ml Kids | 45% | low weeks of cover; no delivery scheduled next week; sales accelerating; repeated short deliveries | Raise an emergency top-up order
+Rift Valley | OUT0197 | Duka | Butter 250g | 44% | no delivery scheduled next week; low weeks of cover; low merchandiser coverage | Raise an emergency top-up order
+Central | OUT0018 | Duka | Butter 250g | 43% | far from depot; low weeks of cover; sales accelerating; low merchandiser coverage; no delivery scheduled next week | Merchandiser check & reorder
+Central | OUT0080 | Duka | Ice Cream 1L Vanilla | 43% | low weeks of cover; no delivery scheduled next week; far from depot; sales accelerating | Raise an emergency top-up order
+Nairobi | OUT0083 | HoReCa | Fresh Milk 500ml | 42% | promotion next week; far from depot; low weeks of cover; low merchandiser coverage; sales accelerating | Increase next delivery for the promotion
+Nairobi | OUT0081 | Duka | Yoghurt 500ml Vanilla | 42% | promotion next week; far from depot; low weeks of cover; low merchandiser coverage; low closing stock | Increase next delivery for the promotion
+Nairobi | OUT0220 | Supermarket | Fresh Milk 500ml | 42% | promotion next week; low weeks of cover; far from depot | Increase next delivery for the promotion
+Western | OUT0182 | Petrol Station | Yoghurt 500ml Vanilla | 42% | far from depot; low weeks of cover; low merchandiser coverage | Merchandiser check & reorder
+Western | OUT0168 | HoReCa | Burger Buns 6pk | 42% | far from depot; low weeks of cover; low merchandiser coverage; sales accelerating | Merchandiser check & reorder
+Rift Valley | OUT0078 | HoReCa | Ice Cream 1L Vanilla | 40% | far from depot; low weeks of cover; sales accelerating; low merchandiser coverage; low closing stock | Merchandiser check & reorder
+Central | OUT0087 | Petrol Station | Yoghurt 250ml Kids | 38% | no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries | Raise an emergency top-up order
+Nairobi | OUT0021 | HoReCa | Yoghurt 250ml Kids | 38% | far from depot; low weeks of cover; low merchandiser coverage; sales accelerating | Merchandiser check & reorder
+Western | OUT0182 | Petrol Station | Ice Cream 1L Vanilla | 38% | far from depot; low weeks of cover; sales accelerating; low merchandiser coverage | Merchandiser check & reorder
+Nairobi | OUT0083 | HoReCa | Ice Cream 1L Chocolate | 38% | promotion next week; far from depot; low weeks of cover; sales accelerating; low merchandiser coverage | Increase next delivery for the promotion
+Nairobi | OUT0065 | Petrol Station | Ice Cream 1L Vanilla | 38% | no delivery scheduled next week; low weeks of cover; low closing stock; repeated short deliveries | Raise an emergency top-up order
+Nairobi | OUT0083 | HoReCa | Burger Buns 6pk | 38% | far from depot; sales accelerating; low weeks of cover; low merchandiser coverage | Merchandiser check & reorder
+Western | OUT0187 | Petrol Station | Ice Cream 1L Vanilla | 37% | no delivery scheduled next week; low weeks of cover; repeated short deliveries; low merchandiser coverage | Raise an emergency top-up order
+Western | OUT0182 | Petrol Station | Cheddar 200g | 36% | far from depot; low weeks of cover; low merchandiser coverage; sales accelerating | Merchandiser check & reorder
+Rift Valley | OUT0078 | HoReCa | Bacon 250g | 34% | far from depot; low weeks of cover; low merchandiser coverage; sales accelerating; no delivery scheduled next week | Merchandiser check & reorder
+Rift Valley | OUT0071 | Petrol Station | Fresh Milk 500ml | 33% | low weeks of cover; low merchandiser coverage; no delivery scheduled next week | Merchandiser check & reorder
+Coast | OUT0015 | Supermarket | Yoghurt 500ml Vanilla | 32% | low weeks of cover; promotion next week; far from depot; no delivery scheduled next week | Increase next delivery for the promotion
+Nairobi | OUT0021 | HoReCa | Burger Buns 6pk | 32% | far from depot; low weeks of cover; low merchandiser coverage; repeated short deliveries | Merchandiser check & reorder
+Western | OUT0132 | Supermarket | Fresh Milk 500ml | 31% | far from depot; low weeks of cover; low closing stock | Merchandiser check & reorder
+Nyanza | OUT0194 | Petrol Station | Long-life Milk 1L | 31% | low weeks of cover; far from depot; sales accelerating | Merchandiser check & reorder
+Western | OUT0182 | Petrol Station | Fresh Milk 500ml | 30% | far from depot; low merchandiser coverage | Merchandiser check & reorder
+Central | OUT0131 | HoReCa | Fresh Milk 500ml | 30% | low weeks of cover; low merchandiser coverage; far from depot | Merchandiser check & reorder
+Rift Valley | OUT0099 | Supermarket | Fresh Milk 500ml | 30% | promotion next week; low weeks of cover; no delivery scheduled next week | Increase next delivery for the promotion
+Nyanza | OUT0194 | Petrol Station | Fresh Milk 500ml | 30% | low weeks of cover; far from depot | Merchandiser check & reorder
+Coast | OUT0175 | Petrol Station | Fresh Milk 500ml | 30% | low weeks of cover; low merchandiser coverage; far from depot | Merchandiser check & reorder
+Western | OUT0168 | HoReCa | Ice Cream 1L Vanilla | 29% | far from depot; low weeks of cover; low merchandiser coverage; sales accelerating; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0088 | Supermarket | Fresh Milk 500ml | 29% | promotion next week; low weeks of cover | Increase next delivery for the promotion
+Nairobi | OUT0203 | Duka | Ice Cream 1L Vanilla | 29% | no delivery scheduled next week; low weeks of cover; repeated short deliveries | Raise an emergency top-up order
+Nairobi | OUT0139 | Petrol Station | Ice Cream 1L Chocolate | 28% | low weeks of cover; low merchandiser coverage; sales accelerating; far from depot; low closing stock | Merchandiser check & reorder
+Coast | OUT0192 | Supermarket | Fresh Milk 500ml | 28% | far from depot; low weeks of cover; no delivery scheduled next week | Merchandiser check & reorder
+Central | OUT0080 | Duka | Butter 250g | 27% | far from depot; low weeks of cover; low merchandiser coverage; low closing stock | Merchandiser check & reorder
+Nairobi | OUT0083 | HoReCa | Greek Yoghurt 450g | 26% | promotion next week; far from depot; no delivery scheduled next week; low weeks of cover; low merchandiser coverage | Increase next delivery for the promotion
+Central | OUT0034 | HoReCa | Fresh Milk 500ml | 26% | low weeks of cover; far from depot; low merchandiser coverage | Merchandiser check & reorder
+Nairobi | OUT0136 | HoReCa | Fresh Milk 500ml | 26% | promotion next week; low weeks of cover; no delivery scheduled next week | Increase next delivery for the promotion
+Western | OUT0132 | Supermarket | Burger Buns 6pk | 26% | promotion next week; far from depot; low weeks of cover; no delivery scheduled next week | Increase next delivery for the promotion
+Coast | OUT0074 | Supermarket | Sausages 500g | 24% | low weeks of cover; promotion next week; no delivery scheduled next week; strong recent sales | Increase next delivery for the promotion
+Central | OUT0121 | Supermarket | Burger Buns 6pk | 24% | promotion next week; low weeks of cover; far from depot; no delivery scheduled next week | Increase next delivery for the promotion
+Central | OUT0034 | HoReCa | Yoghurt 500ml Strawberry | 24% | promotion next week; low weeks of cover; low merchandiser coverage; no delivery scheduled next week; far from depot | Increase next delivery for the promotion
+Nairobi | OUT0083 | HoReCa | Cheddar 200g | 24% | low weeks of cover; far from depot; low merchandiser coverage; low closing stock; sales accelerating | Merchandiser check & reorder
+Nairobi | OUT0021 | HoReCa | Fresh Milk 500ml | 24% | far from depot; low weeks of cover; low merchandiser coverage | Merchandiser check & reorder
+Rift Valley | OUT0048 | Supermarket | Bacon 250g | 23% | promotion next week; low weeks of cover; far from depot; no delivery scheduled next week; low closing stock | Increase next delivery for the promotion
+Central | OUT0067 | Supermarket | Butter 250g | 23% | far from depot; promotion next week; low weeks of cover; repeated short deliveries; strong recent sales | Increase next delivery for the promotion
+Rift Valley | OUT0109 | HoReCa | Ice Cream 1L Chocolate | 23% | promotion next week; low weeks of cover; no delivery scheduled next week; sales accelerating; low merchandiser coverage | Increase next delivery for the promotion
+Rift Valley | OUT0048 | Supermarket | Fresh Milk 500ml | 23% | promotion next week; far from depot; low weeks of cover | Increase next delivery for the promotion
+Nairobi | OUT0160 | Petrol Station | Yoghurt 500ml Strawberry | 22% | low weeks of cover; low merchandiser coverage; far from depot | Merchandiser check & reorder
+Nairobi | OUT0219 | HoReCa | Long-life Milk 1L | 22% | low weeks of cover; far from depot; no delivery scheduled next week; sales accelerating | Merchandiser check & reorder
+Nairobi | OUT0195 | Petrol Station | Yoghurt 250ml Kids | 21% | low weeks of cover; low merchandiser coverage; far from depot; strong recent sales | Merchandiser check & reorder
+Nairobi | OUT0021 | HoReCa | Cheddar 200g | 21% | far from depot; low weeks of cover; sales accelerating; low merchandiser coverage; low closing stock | Merchandiser check & reorder
+Nairobi | OUT0220 | Supermarket | Yoghurt 250ml Kids | 21% | low weeks of cover; far from depot; no delivery scheduled next week | Merchandiser check & reorder
+Central | OUT0111 | Supermarket | Long-life Milk 1L | 21% | promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales | Increase next delivery for the promotion
+Coast | OUT0029 | HoReCa | Fresh Milk 500ml | 21% | low weeks of cover; low merchandiser coverage; no delivery scheduled next week | Merchandiser check & reorder
+Nairobi | OUT0021 | HoReCa | Greek Yoghurt 450g | 21% | far from depot; low weeks of cover; low merchandiser coverage; sales accelerating; low closing stock | Merchandiser check & reorder
+Coast | OUT0074 | Supermarket | Yoghurt 250ml Kids | 21% | promotion next week; low weeks of cover; no delivery scheduled next week; low closing stock | Increase next delivery for the promotion
+Rift Valley | OUT0060 | Supermarket | Burger Buns 6pk | 21% | promotion next week; low weeks of cover; no delivery scheduled next week; repeated short deliveries | Increase next delivery for the promotion
+Nairobi | OUT0021 | HoReCa | Ice Cream 1L Chocolate | 21% | far from depot; low weeks of cover; low merchandiser coverage; low closing stock; repeated short deliveries | Merchandiser check & reorder
+Nairobi | OUT0219 | HoReCa | Butter 250g | 20% | low weeks of cover; far from depot; sales accelerating; no delivery scheduled next week | Merchandiser check & reorder
+Rift Valley | OUT0038 | Supermarket | Greek Yoghurt 450g | 20% | promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales | Increase next delivery for the promotion
+Coast | OUT0192 | Supermarket | Yoghurt 500ml Vanilla | 20% | low weeks of cover; far from depot; no delivery scheduled next week | Merchandiser check & reorder
+Central | OUT0104 | HoReCa | Fresh Milk 500ml | 19% | low weeks of cover; low merchandiser coverage; no delivery scheduled next week | Merchandiser check & reorder
+Nairobi | OUT0091 | Supermarket | Ice Cream 1L Chocolate | 19% | promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales | Increase next delivery for the promotion
+Central | OUT0057 | Duka | Fresh Milk 500ml | 19% | promotion next week; low weeks of cover | Increase next delivery for the promotion
+Nairobi | OUT0219 | HoReCa | Yoghurt 500ml Vanilla | 19% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Nairobi | OUT0172 | Supermarket | Fresh Milk 500ml | 18% | promotion next week; low weeks of cover; no delivery scheduled next week | Increase next delivery for the promotion
+Rift Valley | OUT0048 | Supermarket | Long-life Milk 1L | 18% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Nairobi | OUT0009 | HoReCa | Yoghurt 500ml Strawberry | 18% | low weeks of cover; low merchandiser coverage; no delivery scheduled next week; far from depot | Merchandiser check & reorder
+Nairobi | OUT0220 | Supermarket | Yoghurt 500ml Strawberry | 18% | low weeks of cover; far from depot; no delivery scheduled next week | Merchandiser check & reorder
+Central | OUT0215 | Supermarket | Yoghurt 250ml Kids | 17% | low weeks of cover; far from depot; repeated short deliveries | Merchandiser check & reorder
+Rift Valley | OUT0071 | Petrol Station | Cheddar 200g | 17% | no delivery scheduled next week; low merchandiser coverage; repeated short deliveries; sales accelerating | Raise an emergency top-up order
+Nairobi | OUT0022 | Supermarket | Yoghurt 500ml Vanilla | 17% | promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales | Increase next delivery for the promotion
+Nairobi | OUT0157 | Supermarket | Greek Yoghurt 450g | 17% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries; low closing stock | Merchandiser check & reorder
+Western | OUT0202 | Supermarket | Yoghurt 250ml Kids | 17% | low weeks of cover; far from depot; no delivery scheduled next week | Merchandiser check & reorder
+Nairobi | OUT0108 | Supermarket | Mozzarella 200g | 17% | promotion next week; low weeks of cover; no delivery scheduled next week; low closing stock | Increase next delivery for the promotion
+Coast | OUT0015 | Supermarket | Fresh Milk 500ml | 17% | low weeks of cover; far from depot; repeated short deliveries | Merchandiser check & reorder
+Rift Valley | OUT0109 | HoReCa | Yoghurt 500ml Strawberry | 17% | low weeks of cover; low merchandiser coverage; no delivery scheduled next week; recent stock-out history | Merchandiser check & reorder
+Nairobi | OUT0200 | HoReCa | Ice Cream 1L Vanilla | 17% | low weeks of cover; low merchandiser coverage; no delivery scheduled next week; far from depot | Merchandiser check & reorder
+Coast | OUT0015 | Supermarket | Mozzarella 200g | 17% | low weeks of cover; far from depot; repeated short deliveries; no delivery scheduled next week | Merchandiser check & reorder
+Central | OUT0079 | Supermarket | Long-life Milk 1L | 17% | promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales | Increase next delivery for the promotion
+Nyanza | OUT0198 | HoReCa | Yoghurt 250ml Kids | 16% | low weeks of cover; no delivery scheduled next week; low merchandiser coverage | Merchandiser check & reorder
+Western | OUT0132 | Supermarket | Yoghurt 250ml Kids | 16% | low weeks of cover; far from depot; no delivery scheduled next week; sales accelerating | Merchandiser check & reorder
+Nairobi | OUT0114 | HoReCa | Mozzarella 200g | 16% | promotion next week; low weeks of cover; low merchandiser coverage; no delivery scheduled next week | Increase next delivery for the promotion
+Coast | OUT0015 | Supermarket | Sausages 500g | 16% | low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0215 | Supermarket | Ice Cream 1L Chocolate | 16% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Nairobi | OUT0110 | Supermarket | Yoghurt 500ml Vanilla | 16% | promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales | Increase next delivery for the promotion
+Central | OUT0121 | Supermarket | Mozzarella 200g | 16% | promotion next week; low weeks of cover; far from depot; low closing stock; sales accelerating | Increase next delivery for the promotion
+Nairobi | OUT0101 | Supermarket | Long-life Milk 1L | 16% | low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales | Merchandiser check & reorder
+Central | OUT0070 | Supermarket | Fresh Milk 500ml | 16% | low weeks of cover; far from depot; no delivery scheduled next week | Merchandiser check & reorder
+Western | OUT0202 | Supermarket | Burger Buns 6pk | 16% | low weeks of cover; far from depot; no delivery scheduled next week | Merchandiser check & reorder
+Central | OUT0184 | Supermarket | Fresh Milk 500ml | 15% | low weeks of cover; no delivery scheduled next week; low closing stock | Merchandiser check & reorder
+Rift Valley | OUT0007 | Supermarket | Long-life Milk 1L | 15% | promotion next week; no delivery scheduled next week; repeated short deliveries | Increase next delivery for the promotion
+Nairobi | OUT0108 | Supermarket | Fresh Milk 500ml | 14% | low weeks of cover; no delivery scheduled next week | Merchandiser check & reorder
+Western | OUT0202 | Supermarket | Yoghurt 500ml Vanilla | 14% | low weeks of cover; far from depot; no delivery scheduled next week | Merchandiser check & reorder
+Central | OUT0215 | Supermarket | Ice Cream 1L Vanilla | 14% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Coast | OUT0199 | Supermarket | Sausages 500g | 14% | promotion next week; low weeks of cover; no delivery scheduled next week; sales accelerating | Increase next delivery for the promotion
+Western | OUT0132 | Supermarket | Butter 250g | 14% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Nairobi | OUT0207 | Supermarket | Burger Buns 6pk | 14% | promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales | Increase next delivery for the promotion
+Nairobi | OUT0220 | Supermarket | Yoghurt 500ml Vanilla | 14% | low weeks of cover; far from depot; no delivery scheduled next week | Merchandiser check & reorder
+Nairobi | OUT0157 | Supermarket | Fresh Milk 500ml | 14% | low weeks of cover; far from depot; no delivery scheduled next week | Merchandiser check & reorder
+Coast | OUT0015 | Supermarket | Burger Buns 6pk | 14% | far from depot; low weeks of cover; no delivery scheduled next week | Merchandiser check & reorder
+Nairobi | OUT0128 | Supermarket | Greek Yoghurt 450g | 14% | promotion next week; low weeks of cover; no delivery scheduled next week; sales accelerating; low closing stock | Increase next delivery for the promotion
+Central | OUT0133 | Supermarket | Long-life Milk 1L | 14% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Nairobi | OUT0101 | Supermarket | Greek Yoghurt 450g | 14% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Rift Valley | OUT0099 | Supermarket | Long-life Milk 1L | 14% | promotion next week; low weeks of cover; no delivery scheduled next week | Increase next delivery for the promotion
+Nyanza | OUT0041 | Supermarket | Bacon 250g | 14% | low weeks of cover; far from depot; repeated short deliveries; no delivery scheduled next week | Merchandiser check & reorder
+Coast | OUT0073 | Supermarket | Mozzarella 200g | 14% | far from depot; low weeks of cover; low closing stock; repeated short deliveries; recent stock-out history | Merchandiser check & reorder
+Central | OUT0121 | Supermarket | Greek Yoghurt 450g | 13% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries; sales accelerating | Merchandiser check & reorder
+Coast | OUT0192 | Supermarket | Butter 250g | 13% | far from depot; low weeks of cover; sales accelerating; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Rift Valley | OUT0048 | Supermarket | Burger Buns 6pk | 13% | far from depot; low weeks of cover; sales accelerating; no delivery scheduled next week | Merchandiser check & reorder
+Nairobi | OUT0061 | Supermarket | Long-life Milk 1L | 13% | low weeks of cover; no delivery scheduled next week; strong recent sales | Merchandiser check & reorder
+Nairobi | OUT0195 | Petrol Station | Cheddar 200g | 13% | low weeks of cover; low merchandiser coverage; far from depot | Merchandiser check & reorder
+Nyanza | OUT0173 | Supermarket | Fresh Milk 500ml | 13% | low weeks of cover; no delivery scheduled next week | Merchandiser check & reorder
+Coast | OUT0015 | Supermarket | Butter 250g | 13% | low weeks of cover; far from depot; low closing stock; repeated short deliveries | Merchandiser check & reorder
+Nairobi | OUT0008 | Supermarket | Yoghurt 500ml Vanilla | 13% | low weeks of cover; far from depot; no delivery scheduled next week | Merchandiser check & reorder
+Nairobi | OUT0220 | Supermarket | Bacon 250g | 13% | far from depot; low weeks of cover; repeated short deliveries; no delivery scheduled next week | Merchandiser check & reorder
+Western | OUT0089 | Supermarket | Fresh Milk 500ml | 13% | promotion next week; low weeks of cover; repeated short deliveries | Increase next delivery for the promotion
+Coast | OUT0042 | Supermarket | Ice Cream 1L Chocolate | 13% | promotion next week; low weeks of cover; no delivery scheduled next week; repeated short deliveries | Increase next delivery for the promotion
+Rift Valley | OUT0217 | Supermarket | Long-life Milk 1L | 13% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0133 | Supermarket | Butter 250g | 13% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Nairobi | OUT0157 | Supermarket | Butter 250g | 13% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0215 | Supermarket | Butter 250g | 13% | low weeks of cover; far from depot; sales accelerating; repeated short deliveries; strong recent sales | Merchandiser check & reorder
+Nyanza | OUT0198 | HoReCa | Yoghurt 500ml Strawberry | 13% | low weeks of cover; no delivery scheduled next week; strong recent sales | Merchandiser check & reorder
+Coast | OUT0073 | Supermarket | Ice Cream 1L Vanilla | 13% | promotion next week; far from depot; low weeks of cover; no delivery scheduled next week; low closing stock | Increase next delivery for the promotion
+Nairobi | OUT0220 | Supermarket | Greek Yoghurt 450g | 13% | low weeks of cover; far from depot; no delivery scheduled next week | Merchandiser check & reorder
+Nairobi | OUT0110 | Supermarket | Cheddar 200g | 12% | promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales | Increase next delivery for the promotion
+Rift Valley | OUT0048 | Supermarket | Butter 250g | 12% | low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales | Merchandiser check & reorder
+Western | OUT0040 | Supermarket | Fresh Milk 500ml | 12% | promotion next week; no delivery scheduled next week; far from depot | Increase next delivery for the promotion
+Central | OUT0054 | Supermarket | Yoghurt 500ml Vanilla | 12% | low weeks of cover; sales accelerating; no delivery scheduled next week; strong recent sales | Merchandiser check & reorder
+Western | OUT0132 | Supermarket | Ice Cream 1L Vanilla | 12% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries; sales accelerating | Merchandiser check & reorder
+Nyanza | OUT0041 | Supermarket | Greek Yoghurt 450g | 12% | low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales | Merchandiser check & reorder
+Rift Valley | OUT0048 | Supermarket | Yoghurt 500ml Strawberry | 12% | low weeks of cover; far from depot; no delivery scheduled next week | Merchandiser check & reorder
+Coast | OUT0192 | Supermarket | Burger Buns 6pk | 12% | far from depot; low weeks of cover; sales accelerating; no delivery scheduled next week | Merchandiser check & reorder
+Coast | OUT0074 | Supermarket | Greek Yoghurt 450g | 12% | low weeks of cover; sales accelerating; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Coast | OUT0151 | Supermarket | Fresh Milk 500ml | 12% | low weeks of cover; no delivery scheduled next week | Merchandiser check & reorder
+Nairobi | OUT0220 | Supermarket | Cheddar 200g | 12% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Coast | OUT0073 | Supermarket | Yoghurt 500ml Strawberry | 12% | promotion next week; far from depot; low weeks of cover; repeated short deliveries | Increase next delivery for the promotion
+Rift Valley | OUT0048 | Supermarket | Ice Cream 1L Chocolate | 12% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0121 | Supermarket | Yoghurt 500ml Strawberry | 12% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Western | OUT0202 | Supermarket | Fresh Milk 500ml | 12% | low weeks of cover; far from depot; repeated short deliveries | Merchandiser check & reorder
+Nairobi | OUT0219 | HoReCa | Sausages 500g | 12% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries; low merchandiser coverage | Merchandiser check & reorder
+Rift Valley | OUT0217 | Supermarket | Yoghurt 250ml Kids | 12% | promotion next week; low weeks of cover; no delivery scheduled next week; far from depot | Increase next delivery for the promotion
+Western | OUT0202 | Supermarket | Greek Yoghurt 450g | 12% | low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales; repeated short deliveries | Merchandiser check & reorder
+Nairobi | OUT0021 | HoReCa | Butter 250g | 12% | far from depot; low weeks of cover; low merchandiser coverage; repeated short deliveries | Merchandiser check & reorder
+Nairobi | OUT0091 | Supermarket | Yoghurt 250ml Kids | 12% | low weeks of cover; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0184 | Supermarket | Long-life Milk 1L | 12% | low weeks of cover; no delivery scheduled next week; far from depot | Merchandiser check & reorder
+Western | OUT0049 | Supermarket | Butter 250g | 11% | promotion next week; low weeks of cover; no delivery scheduled next week; repeated short deliveries | Increase next delivery for the promotion
+Nairobi | OUT0220 | Supermarket | Long-life Milk 1L | 11% | low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales | Merchandiser check & reorder
+Central | OUT0036 | Supermarket | Sausages 500g | 11% | low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0113 | Supermarket | Greek Yoghurt 450g | 11% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Rift Valley | OUT0038 | Supermarket | Butter 250g | 11% | promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries | Increase next delivery for the promotion
+Coast | OUT0001 | Supermarket | Fresh Milk 500ml | 11% | low weeks of cover; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0067 | Supermarket | Mozzarella 200g | 11% | far from depot; low weeks of cover; repeated short deliveries; low closing stock | Merchandiser check & reorder
+Nyanza | OUT0041 | Supermarket | Ice Cream 1L Chocolate | 11% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Nairobi | OUT0101 | Supermarket | Ice Cream 1L Vanilla | 11% | low weeks of cover; far from depot; repeated short deliveries; no delivery scheduled next week | Merchandiser check & reorder
+Coast | OUT0001 | Supermarket | Butter 250g | 11% | promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales | Increase next delivery for the promotion
+Central | OUT0088 | Supermarket | Yoghurt 500ml Vanilla | 10% | promotion next week; low weeks of cover; strong recent sales | Increase next delivery for the promotion
+Central | OUT0036 | Supermarket | Cheddar 200g | 10% | low weeks of cover; no delivery scheduled next week; repeated short deliveries; sales accelerating | Merchandiser check & reorder
+Coast | OUT0030 | Supermarket | Yoghurt 500ml Strawberry | 10% | low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries | Merchandiser check & reorder
+Nairobi | OUT0061 | Supermarket | Ice Cream 1L Chocolate | 10% | low weeks of cover; no delivery scheduled next week; far from depot; repeated short deliveries | Merchandiser check & reorder
+Rift Valley | OUT0060 | Supermarket | Fresh Milk 500ml | 10% | low weeks of cover; no delivery scheduled next week | Merchandiser check & reorder
+Coast | OUT0015 | Supermarket | Greek Yoghurt 450g | 10% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0111 | Supermarket | Yoghurt 500ml Strawberry | 10% | low weeks of cover; no delivery scheduled next week; strong recent sales | Merchandiser check & reorder
+Nyanza | OUT0041 | Supermarket | Cheddar 200g | 10% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Nyanza | OUT0173 | Supermarket | Yoghurt 500ml Vanilla | 10% | low weeks of cover; no delivery scheduled next week; far from depot | Merchandiser check & reorder
+Rift Valley | OUT0066 | Supermarket | Cheddar 200g | 10% | low weeks of cover; no delivery scheduled next week; sales accelerating; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0133 | Supermarket | Ice Cream 1L Chocolate | 10% | low weeks of cover; far from depot; no delivery scheduled next week; sales accelerating; repeated short deliveries | Merchandiser check & reorder
+Nairobi | OUT0091 | Supermarket | Long-life Milk 1L | 10% | promotion next week; low weeks of cover; no delivery scheduled next week | Increase next delivery for the promotion
+Central | OUT0004 | Supermarket | Ice Cream 1L Vanilla | 10% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Nairobi | OUT0101 | Supermarket | Ice Cream 1L Chocolate | 10% | low weeks of cover; far from depot; low closing stock; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0054 | Supermarket | Butter 250g | 10% | low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0088 | Supermarket | Cheddar 200g | 10% | low weeks of cover; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Coast | OUT0151 | Supermarket | Sausages 500g | 10% | low weeks of cover; no delivery scheduled next week; repeated short deliveries; recent stock-out history | Merchandiser check & reorder
+Nairobi | OUT0101 | Supermarket | Cheddar 200g | 10% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0036 | Supermarket | Ice Cream 1L Vanilla | 10% | low weeks of cover; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Coast | OUT0073 | Supermarket | Cheddar 200g | 9% | far from depot; sales accelerating; low weeks of cover; low closing stock; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0215 | Supermarket | Long-life Milk 1L | 9% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Nyanza | OUT0041 | Supermarket | Burger Buns 6pk | 9% | low weeks of cover; far from depot; no delivery scheduled next week | Merchandiser check & reorder
+Coast | OUT0074 | Supermarket | Yoghurt 500ml Vanilla | 9% | promotion next week; low weeks of cover; no delivery scheduled next week; sales accelerating | Increase next delivery for the promotion
+Coast | OUT0030 | Supermarket | Fresh Milk 500ml | 9% | low weeks of cover; no delivery scheduled next week | Merchandiser check & reorder
+Rift Valley | OUT0048 | Supermarket | Yoghurt 500ml Vanilla | 9% | low weeks of cover; far from depot; no delivery scheduled next week; sales accelerating | Merchandiser check & reorder
+Nairobi | OUT0061 | Supermarket | Cheddar 200g | 9% | low weeks of cover; no delivery scheduled next week; repeated short deliveries; far from depot | Merchandiser check & reorder
+Western | OUT0089 | Supermarket | Cheddar 200g | 9% | low weeks of cover; no delivery scheduled next week; repeated short deliveries; strong recent sales | Merchandiser check & reorder
+Coast | OUT0001 | Supermarket | Yoghurt 500ml Vanilla | 9% | low weeks of cover; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Nairobi | OUT0207 | Supermarket | Cheddar 200g | 9% | low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0133 | Supermarket | Cheddar 200g | 9% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0121 | Supermarket | Butter 250g | 9% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Coast | OUT0192 | Supermarket | Ice Cream 1L Chocolate | 9% | low weeks of cover; far from depot; low closing stock; repeated short deliveries; strong recent sales | Merchandiser check & reorder
+Central | OUT0111 | Supermarket | Sausages 500g | 9% | low weeks of cover; no delivery scheduled next week; repeated short deliveries; strong recent sales | Merchandiser check & reorder
+Nyanza | OUT0198 | HoReCa | Sausages 500g | 9% | low weeks of cover; no delivery scheduled next week; repeated short deliveries; low merchandiser coverage | Merchandiser check & reorder
+Rift Valley | OUT0038 | Supermarket | Long-life Milk 1L | 9% | low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0121 | Supermarket | Cheddar 200g | 9% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries; low closing stock | Merchandiser check & reorder
+Western | OUT0202 | Supermarket | Yoghurt 500ml Strawberry | 9% | low weeks of cover; far from depot; no delivery scheduled next week | Merchandiser check & reorder
+Nairobi | OUT0091 | Supermarket | Greek Yoghurt 450g | 9% | low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries | Merchandiser check & reorder
+Nairobi | OUT0008 | Supermarket | Ice Cream 1L Vanilla | 8% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Rift Valley | OUT0038 | Supermarket | Yoghurt 500ml Strawberry | 8% | low weeks of cover; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Nairobi | OUT0091 | Supermarket | Fresh Milk 500ml | 8% | low weeks of cover; no delivery scheduled next week | Merchandiser check & reorder
+Nyanza | OUT0173 | Supermarket | Sausages 500g | 8% | low weeks of cover; no delivery scheduled next week; repeated short deliveries; far from depot | Merchandiser check & reorder
+Central | OUT0054 | Supermarket | Ice Cream 1L Chocolate | 8% | low weeks of cover; no delivery scheduled next week; repeated short deliveries; low closing stock | Merchandiser check & reorder
+Nairobi | OUT0220 | Supermarket | Ice Cream 1L Chocolate | 8% | low weeks of cover; far from depot; sales accelerating; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Western | OUT0202 | Supermarket | Ice Cream 1L Vanilla | 8% | low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales | Merchandiser check & reorder
+Central | OUT0064 | Supermarket | Sausages 500g | 8% | low weeks of cover; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Nyanza | OUT0169 | Supermarket | Fresh Milk 500ml | 8% | low weeks of cover; no delivery scheduled next week | Merchandiser check & reorder
+Central | OUT0113 | Supermarket | Sausages 500g | 8% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Western | OUT0116 | Supermarket | Sausages 500g | 8% | low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries | Merchandiser check & reorder
+Coast | OUT0015 | Supermarket | Cheddar 200g | 8% | promotion next week; far from depot; low weeks of cover; low closing stock; strong recent sales | Increase next delivery for the promotion
+Western | OUT0202 | Supermarket | Mozzarella 200g | 8% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0054 | Supermarket | Cheddar 200g | 8% | low weeks of cover; no delivery scheduled next week; repeated short deliveries; strong recent sales | Merchandiser check & reorder
+Nairobi | OUT0008 | Supermarket | Butter 250g | 8% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Nyanza | OUT0198 | HoReCa | Cheddar 200g | 8% | low weeks of cover; no delivery scheduled next week; repeated short deliveries; low merchandiser coverage | Merchandiser check & reorder
+Rift Valley | OUT0038 | Supermarket | Sausages 500g | 8% | low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries | Merchandiser check & reorder
+Coast | OUT0042 | Supermarket | Butter 250g | 8% | low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0121 | Supermarket | Ice Cream 1L Vanilla | 8% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries; low closing stock | Merchandiser check & reorder
+Coast | OUT0001 | Supermarket | Burger Buns 6pk | 8% | low weeks of cover; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Rift Valley | OUT0038 | Supermarket | Mozzarella 200g | 8% | low weeks of cover; sales accelerating; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Rift Valley | OUT0038 | Supermarket | Ice Cream 1L Vanilla | 8% | low weeks of cover; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0113 | Supermarket | Ice Cream 1L Vanilla | 8% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Nairobi | OUT0150 | Supermarket | Sausages 500g | 8% | low weeks of cover; no delivery scheduled next week; strong recent sales | Merchandiser check & reorder
+Nairobi | OUT0009 | HoReCa | Cheddar 200g | 8% | low weeks of cover; no delivery scheduled next week; low merchandiser coverage; far from depot | Merchandiser check & reorder
+Nairobi | OUT0150 | Supermarket | Mozzarella 200g | 7% | low weeks of cover; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Rift Valley | OUT0048 | Supermarket | Mozzarella 200g | 7% | promotion next week; far from depot; no delivery scheduled next week; repeated short deliveries | Increase next delivery for the promotion
+Central | OUT0067 | Supermarket | Ice Cream 1L Vanilla | 7% | low weeks of cover; far from depot; repeated short deliveries | Merchandiser check & reorder
+Western | OUT0202 | Supermarket | Long-life Milk 1L | 7% | low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales | Merchandiser check & reorder
+Western | OUT0202 | Supermarket | Sausages 500g | 7% | low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales | Merchandiser check & reorder
+Central | OUT0054 | Supermarket | Sausages 500g | 7% | low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries | Merchandiser check & reorder
+Rift Valley | OUT0066 | Supermarket | Sausages 500g | 7% | low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries | Merchandiser check & reorder
+Nyanza | OUT0173 | Supermarket | Cheddar 200g | 7% | low weeks of cover; no delivery scheduled next week; far from depot; repeated short deliveries | Merchandiser check & reorder
+Coast | OUT0074 | Supermarket | Fresh Milk 500ml | 7% | low weeks of cover; no delivery scheduled next week | Merchandiser check & reorder
+Rift Valley | OUT0060 | Supermarket | Yoghurt 250ml Kids | 7% | low weeks of cover; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0004 | Supermarket | Yoghurt 500ml Strawberry | 7% | low weeks of cover; no delivery scheduled next week; far from depot; sales accelerating | Merchandiser check & reorder
+Central | OUT0004 | Supermarket | Greek Yoghurt 450g | 7% | low weeks of cover; far from depot; low closing stock; repeated short deliveries | Merchandiser check & reorder
+Nairobi | OUT0150 | Supermarket | Ice Cream 1L Vanilla | 7% | low weeks of cover; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0111 | Supermarket | Ice Cream 1L Chocolate | 7% | low weeks of cover; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Western | OUT0116 | Supermarket | Cheddar 200g | 6% | low weeks of cover; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Coast | OUT0074 | Supermarket | Butter 250g | 6% | low weeks of cover; sales accelerating; no delivery scheduled next week; strong recent sales; repeated short deliveries | Merchandiser check & reorder
+Rift Valley | OUT0060 | Supermarket | Sausages 500g | 6% | low weeks of cover; no delivery scheduled next week; strong recent sales | Merchandiser check & reorder
+Western | OUT0202 | Supermarket | Ice Cream 1L Chocolate | 6% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries; strong recent sales | Merchandiser check & reorder
+Rift Valley | OUT0048 | Supermarket | Cheddar 200g | 6% | far from depot; low weeks of cover; no delivery scheduled next week; low closing stock; repeated short deliveries | Merchandiser check & reorder
+Nyanza | OUT0041 | Supermarket | Ice Cream 1L Vanilla | 6% | low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0184 | Supermarket | Ice Cream 1L Vanilla | 6% | low weeks of cover; far from depot; repeated short deliveries; low closing stock | Merchandiser check & reorder
+Nyanza | OUT0169 | Supermarket | Cheddar 200g | 6% | promotion next week; low weeks of cover; low closing stock; repeated short deliveries | Increase next delivery for the promotion
+Coast | OUT0042 | Supermarket | Cheddar 200g | 6% | low weeks of cover; no delivery scheduled next week; sales accelerating; repeated short deliveries | Merchandiser check & reorder
+Western | OUT0116 | Supermarket | Yoghurt 500ml Strawberry | 6% | low weeks of cover; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0054 | Supermarket | Fresh Milk 500ml | 6% | low weeks of cover; no delivery scheduled next week | Merchandiser check & reorder
+Coast | OUT0074 | Supermarket | Long-life Milk 1L | 6% | low weeks of cover; no delivery scheduled next week; strong recent sales | Merchandiser check & reorder
+Coast | OUT0042 | Supermarket | Fresh Milk 500ml | 6% | low weeks of cover; no delivery scheduled next week | Merchandiser check & reorder
+Western | OUT0053 | Supermarket | Cheddar 200g | 6% | low weeks of cover; low closing stock; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Nairobi | OUT0091 | Supermarket | Sausages 500g | 6% | low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries | Merchandiser check & reorder
+Rift Valley | OUT0060 | Supermarket | Long-life Milk 1L | 6% | low weeks of cover; no delivery scheduled next week; strong recent sales | Merchandiser check & reorder
+Rift Valley | OUT0038 | Supermarket | Cheddar 200g | 5% | low weeks of cover; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Central | OUT0004 | Supermarket | Fresh Milk 500ml | 5% | low weeks of cover; far from depot; low closing stock | Merchandiser check & reorder
+Rift Valley | OUT0060 | Supermarket | Yoghurt 500ml Strawberry | 5% | low weeks of cover; no delivery scheduled next week; strong recent sales | Merchandiser check & reorder
+Nyanza | OUT0169 | Supermarket | Ice Cream 1L Vanilla | 5% | promotion next week; low weeks of cover; repeated short deliveries | Increase next delivery for the promotion
+Coast | OUT0192 | Supermarket | Ice Cream 1L Vanilla | 5% | far from depot; low weeks of cover; repeated short deliveries; low closing stock | Merchandiser check & reorder
+Rift Valley | OUT0048 | Supermarket | Ice Cream 1L Vanilla | 5% | far from depot; low weeks of cover; low closing stock; repeated short deliveries | Merchandiser check & reorder
+Western | OUT0116 | Supermarket | Butter 250g | 5% | low weeks of cover; no delivery scheduled next week; repeated short deliveries; sales accelerating | Merchandiser check & reorder
+Coast | OUT0042 | Supermarket | Yoghurt 500ml Strawberry | 5% | low weeks of cover; no delivery scheduled next week; repeated short deliveries | Merchandiser check & reorder
+Nairobi | OUT0207 | Supermarket | Ice Cream 1L Vanilla | 4% | low weeks of cover; no delivery scheduled next week; low closing stock; sales accelerating; repeated short deliveries | Merchandiser check & reorder
+Coast | OUT0042 | Supermarket | Sausages 500g | 4% | low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries | Merchandiser check & reorder
+Coast | OUT0001 | Supermarket | Yoghurt 500ml Strawberry | 4% | low weeks of cover; no delivery scheduled next week; sales accelerating; repeated short deliveries | Merchandiser check & reorder

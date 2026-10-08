@@ -1,0 +1,5111 @@
+{
+  "table": "Stock-out Alerts",
+  "performUpsert": {
+    "fieldsToMergeOn": [
+      "Alert ID"
+    ]
+  },
+  "typecast": true,
+  "records": [
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0097-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0097",
+        "Channel": "Petrol Station",
+        "Region": "Nairobi",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 0,
+        "Weeks of Cover": 0.0,
+        "Risk": 0.882,
+        "Expected Value KES": 216.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; low merchandiser coverage",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0125-Yoghurt 250ml Kids",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0125",
+        "Channel": "Duka",
+        "Region": "Coast",
+        "SKU": "Yoghurt 250ml Kids",
+        "Closing Stock": 2,
+        "Weeks of Cover": 0.13,
+        "Risk": 0.881,
+        "Expected Value KES": 164.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0080-Yoghurt 500ml Strawberry",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0080",
+        "Channel": "Duka",
+        "Region": "Central",
+        "SKU": "Yoghurt 500ml Strawberry",
+        "Closing Stock": 5,
+        "Weeks of Cover": 0.42,
+        "Risk": 0.847,
+        "Expected Value KES": 279.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; low merchandiser coverage; far from depot",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0142-Yoghurt 500ml Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0142",
+        "Channel": "Duka",
+        "Region": "Central",
+        "SKU": "Yoghurt 500ml Vanilla",
+        "Closing Stock": 11,
+        "Weeks of Cover": 0.58,
+        "Risk": 0.825,
+        "Expected Value KES": 458.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; low merchandiser coverage; sales accelerating",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0144-Bacon 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0144",
+        "Channel": "Petrol Station",
+        "Region": "Nyanza",
+        "SKU": "Bacon 250g",
+        "Closing Stock": 1,
+        "Weeks of Cover": 0.44,
+        "Risk": 0.786,
+        "Expected Value KES": 103.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; sales accelerating; low merchandiser coverage",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0011-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0011",
+        "Channel": "Duka",
+        "Region": "Nyanza",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 26,
+        "Weeks of Cover": 0.83,
+        "Risk": 0.782,
+        "Expected Value KES": 236.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; low merchandiser coverage",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0174-Burger Buns 6pk",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0174",
+        "Channel": "Petrol Station",
+        "Region": "Western",
+        "SKU": "Burger Buns 6pk",
+        "Closing Stock": 9,
+        "Weeks of Cover": 1.44,
+        "Risk": 0.765,
+        "Expected Value KES": 105.0,
+        "Reasons": "promotion next week; no delivery scheduled next week; sales accelerating; repeated short deliveries",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0187-Yoghurt 250ml Kids",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0187",
+        "Channel": "Petrol Station",
+        "Region": "Western",
+        "SKU": "Yoghurt 250ml Kids",
+        "Closing Stock": 4,
+        "Weeks of Cover": 0.29,
+        "Risk": 0.759,
+        "Expected Value KES": 122.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0035-Mozzarella 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0035",
+        "Channel": "Duka",
+        "Region": "Western",
+        "SKU": "Mozzarella 200g",
+        "Closing Stock": 1,
+        "Weeks of Cover": 0.27,
+        "Risk": 0.746,
+        "Expected Value KES": 232.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; low merchandiser coverage; low closing stock",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0144-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0144",
+        "Channel": "Petrol Station",
+        "Region": "Nyanza",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 18,
+        "Weeks of Cover": 1.04,
+        "Risk": 0.74,
+        "Expected Value KES": 99.0,
+        "Reasons": "no delivery scheduled next week; sales accelerating; low weeks of cover",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0183-Burger Buns 6pk",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0183",
+        "Channel": "Duka",
+        "Region": "Central",
+        "SKU": "Burger Buns 6pk",
+        "Closing Stock": 14,
+        "Weeks of Cover": 1.56,
+        "Risk": 0.738,
+        "Expected Value KES": 165.0,
+        "Reasons": "promotion next week; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0164-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0164",
+        "Channel": "Duka",
+        "Region": "Western",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 4,
+        "Weeks of Cover": 0.67,
+        "Risk": 0.735,
+        "Expected Value KES": 284.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0023-Yoghurt 500ml Strawberry",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0023",
+        "Channel": "Duka",
+        "Region": "Central",
+        "SKU": "Yoghurt 500ml Strawberry",
+        "Closing Stock": 8,
+        "Weeks of Cover": 1.07,
+        "Risk": 0.713,
+        "Expected Value KES": 123.0,
+        "Reasons": "no delivery scheduled next week; promotion next week; low weeks of cover; low merchandiser coverage",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0071-Yoghurt 500ml Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0071",
+        "Channel": "Petrol Station",
+        "Region": "Rift Valley",
+        "SKU": "Yoghurt 500ml Vanilla",
+        "Closing Stock": 4,
+        "Weeks of Cover": 0.27,
+        "Risk": 0.697,
+        "Expected Value KES": 289.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; low merchandiser coverage; repeated short deliveries",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0018-Ice Cream 1L Chocolate",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0018",
+        "Channel": "Duka",
+        "Region": "Central",
+        "SKU": "Ice Cream 1L Chocolate",
+        "Closing Stock": 1,
+        "Weeks of Cover": 0.22,
+        "Risk": 0.67,
+        "Expected Value KES": 303.0,
+        "Reasons": "low weeks of cover; sales accelerating; no delivery scheduled next week; low merchandiser coverage",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0051-Greek Yoghurt 450g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0051",
+        "Channel": "Duka",
+        "Region": "Nairobi",
+        "SKU": "Greek Yoghurt 450g",
+        "Closing Stock": 2,
+        "Weeks of Cover": 0.47,
+        "Risk": 0.658,
+        "Expected Value KES": 162.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; low merchandiser coverage",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0193-Yoghurt 500ml Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0193",
+        "Channel": "Duka",
+        "Region": "Central",
+        "SKU": "Yoghurt 500ml Vanilla",
+        "Closing Stock": 6,
+        "Weeks of Cover": 0.75,
+        "Risk": 0.655,
+        "Expected Value KES": 120.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0058-Long-life Milk 1L",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0058",
+        "Channel": "Duka",
+        "Region": "Coast",
+        "SKU": "Long-life Milk 1L",
+        "Closing Stock": 7,
+        "Weeks of Cover": 0.48,
+        "Risk": 0.642,
+        "Expected Value KES": 185.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; promotion next week",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0068-Greek Yoghurt 450g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0068",
+        "Channel": "Duka",
+        "Region": "Nairobi",
+        "SKU": "Greek Yoghurt 450g",
+        "Closing Stock": 2,
+        "Weeks of Cover": 0.61,
+        "Risk": 0.635,
+        "Expected Value KES": 106.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; low merchandiser coverage",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0187-Long-life Milk 1L",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0187",
+        "Channel": "Petrol Station",
+        "Region": "Western",
+        "SKU": "Long-life Milk 1L",
+        "Closing Stock": 19,
+        "Weeks of Cover": 1.27,
+        "Risk": 0.635,
+        "Expected Value KES": 190.0,
+        "Reasons": "promotion next week; no delivery scheduled next week; sales accelerating; repeated short deliveries",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0193-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0193",
+        "Channel": "Duka",
+        "Region": "Central",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 5,
+        "Weeks of Cover": 0.67,
+        "Risk": 0.634,
+        "Expected Value KES": 309.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; low merchandiser coverage; repeated short deliveries",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0203-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0203",
+        "Channel": "Duka",
+        "Region": "Nairobi",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 30,
+        "Weeks of Cover": 1.5,
+        "Risk": 0.627,
+        "Expected Value KES": 97.0,
+        "Reasons": "no delivery scheduled next week; sales accelerating; repeated short deliveries",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0164-Yoghurt 500ml Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0164",
+        "Channel": "Duka",
+        "Region": "Western",
+        "SKU": "Yoghurt 500ml Vanilla",
+        "Closing Stock": 8,
+        "Weeks of Cover": 0.91,
+        "Risk": 0.609,
+        "Expected Value KES": 123.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0182-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0182",
+        "Channel": "Petrol Station",
+        "Region": "Western",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 2,
+        "Weeks of Cover": 0.26,
+        "Risk": 0.602,
+        "Expected Value KES": 303.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; low merchandiser coverage; far from depot",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0208-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0208",
+        "Channel": "Duka",
+        "Region": "Rift Valley",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 1,
+        "Weeks of Cover": 0.27,
+        "Risk": 0.59,
+        "Expected Value KES": 209.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; sales accelerating",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0085-Yoghurt 500ml Strawberry",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0085",
+        "Channel": "Duka",
+        "Region": "Rift Valley",
+        "SKU": "Yoghurt 500ml Strawberry",
+        "Closing Stock": 14,
+        "Weeks of Cover": 0.97,
+        "Risk": 0.545,
+        "Expected Value KES": 206.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0080-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0080",
+        "Channel": "Duka",
+        "Region": "Central",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 39,
+        "Weeks of Cover": 1.31,
+        "Risk": 0.541,
+        "Expected Value KES": 138.0,
+        "Reasons": "no delivery scheduled next week; far from depot",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0146-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0146",
+        "Channel": "Petrol Station",
+        "Region": "Nairobi",
+        "SKU": "Butter 250g",
+        "Closing Stock": 8,
+        "Weeks of Cover": 0.89,
+        "Risk": 0.54,
+        "Expected Value KES": 291.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0196-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0196",
+        "Channel": "Petrol Station",
+        "Region": "Rift Valley",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 1,
+        "Weeks of Cover": 0.14,
+        "Risk": 0.538,
+        "Expected Value KES": 235.0,
+        "Reasons": "no delivery scheduled next week; promotion next week; low weeks of cover; repeated short deliveries",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0018-Burger Buns 6pk",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0018",
+        "Channel": "Duka",
+        "Region": "Central",
+        "SKU": "Burger Buns 6pk",
+        "Closing Stock": 4,
+        "Weeks of Cover": 0.4,
+        "Risk": 0.524,
+        "Expected Value KES": 120.0,
+        "Reasons": "far from depot; low weeks of cover; low merchandiser coverage; sales accelerating",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0205-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0205",
+        "Channel": "Duka",
+        "Region": "Rift Valley",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 4,
+        "Weeks of Cover": 0.76,
+        "Risk": 0.524,
+        "Expected Value KES": 158.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; low merchandiser coverage; sales accelerating",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0182-Greek Yoghurt 450g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0182",
+        "Channel": "Petrol Station",
+        "Region": "Western",
+        "SKU": "Greek Yoghurt 450g",
+        "Closing Stock": 7,
+        "Weeks of Cover": 1.08,
+        "Risk": 0.52,
+        "Expected Value KES": 205.0,
+        "Reasons": "promotion next week; no delivery scheduled next week; far from depot; low weeks of cover",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0213-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0213",
+        "Channel": "Duka",
+        "Region": "Central",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 16,
+        "Weeks of Cover": 0.61,
+        "Risk": 0.504,
+        "Expected Value KES": 103.0,
+        "Reasons": "far from depot; low weeks of cover; low merchandiser coverage",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0193-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0193",
+        "Channel": "Duka",
+        "Region": "Central",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 3,
+        "Weeks of Cover": 0.8,
+        "Risk": 0.5,
+        "Expected Value KES": 170.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0168-Yoghurt 500ml Strawberry",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0168",
+        "Channel": "HoReCa",
+        "Region": "Western",
+        "SKU": "Yoghurt 500ml Strawberry",
+        "Closing Stock": 8,
+        "Weeks of Cover": 0.39,
+        "Risk": 0.48,
+        "Expected Value KES": 273.0,
+        "Reasons": "far from depot; promotion next week; low weeks of cover; low merchandiser coverage; low closing stock",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0016-Bacon 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0016",
+        "Channel": "Petrol Station",
+        "Region": "Nairobi",
+        "SKU": "Bacon 250g",
+        "Closing Stock": 1,
+        "Weeks of Cover": 0.29,
+        "Risk": 0.47,
+        "Expected Value KES": 92.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; repeated short deliveries",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0170-Mozzarella 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0170",
+        "Channel": "Duka",
+        "Region": "Rift Valley",
+        "SKU": "Mozzarella 200g",
+        "Closing Stock": 4,
+        "Weeks of Cover": 0.8,
+        "Risk": 0.464,
+        "Expected Value KES": 184.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; low merchandiser coverage",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0139-Bacon 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0139",
+        "Channel": "Petrol Station",
+        "Region": "Nairobi",
+        "SKU": "Bacon 250g",
+        "Closing Stock": 3,
+        "Weeks of Cover": 0.86,
+        "Risk": 0.46,
+        "Expected Value KES": 89.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; sales accelerating; low merchandiser coverage",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0153-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0153",
+        "Channel": "Duka",
+        "Region": "Central",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 9,
+        "Weeks of Cover": 0.35,
+        "Risk": 0.454,
+        "Expected Value KES": 88.0,
+        "Reasons": "far from depot; low weeks of cover; low merchandiser coverage",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0057-Yoghurt 250ml Kids",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0057",
+        "Channel": "Duka",
+        "Region": "Central",
+        "SKU": "Yoghurt 250ml Kids",
+        "Closing Stock": 20,
+        "Weeks of Cover": 0.81,
+        "Risk": 0.449,
+        "Expected Value KES": 130.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; sales accelerating; repeated short deliveries",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0197-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0197",
+        "Channel": "Duka",
+        "Region": "Rift Valley",
+        "SKU": "Butter 250g",
+        "Closing Stock": 6,
+        "Weeks of Cover": 0.89,
+        "Risk": 0.437,
+        "Expected Value KES": 157.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; low merchandiser coverage",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0018-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0018",
+        "Channel": "Duka",
+        "Region": "Central",
+        "SKU": "Butter 250g",
+        "Closing Stock": 3,
+        "Weeks of Cover": 0.55,
+        "Risk": 0.433,
+        "Expected Value KES": 117.0,
+        "Reasons": "far from depot; low weeks of cover; sales accelerating; low merchandiser coverage; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0080-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0080",
+        "Channel": "Duka",
+        "Region": "Central",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 4,
+        "Weeks of Cover": 0.84,
+        "Risk": 0.429,
+        "Expected Value KES": 188.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; far from depot; sales accelerating",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0083-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0083",
+        "Channel": "HoReCa",
+        "Region": "Nairobi",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 14,
+        "Weeks of Cover": 0.25,
+        "Risk": 0.424,
+        "Expected Value KES": 225.0,
+        "Reasons": "promotion next week; far from depot; low weeks of cover; low merchandiser coverage; sales accelerating",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0081-Yoghurt 500ml Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0081",
+        "Channel": "Duka",
+        "Region": "Nairobi",
+        "SKU": "Yoghurt 500ml Vanilla",
+        "Closing Stock": 8,
+        "Weeks of Cover": 0.82,
+        "Risk": 0.424,
+        "Expected Value KES": 84.0,
+        "Reasons": "promotion next week; far from depot; low weeks of cover; low merchandiser coverage; low closing stock",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0220-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0220",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 201,
+        "Weeks of Cover": 1.16,
+        "Risk": 0.423,
+        "Expected Value KES": 808.0,
+        "Reasons": "promotion next week; low weeks of cover; far from depot",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0182-Yoghurt 500ml Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0182",
+        "Channel": "Petrol Station",
+        "Region": "Western",
+        "SKU": "Yoghurt 500ml Vanilla",
+        "Closing Stock": 5,
+        "Weeks of Cover": 0.35,
+        "Risk": 0.421,
+        "Expected Value KES": 144.0,
+        "Reasons": "far from depot; low weeks of cover; low merchandiser coverage",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0168-Burger Buns 6pk",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0168",
+        "Channel": "HoReCa",
+        "Region": "Western",
+        "SKU": "Burger Buns 6pk",
+        "Closing Stock": 4,
+        "Weeks of Cover": 0.37,
+        "Risk": 0.421,
+        "Expected Value KES": 96.0,
+        "Reasons": "far from depot; low weeks of cover; low merchandiser coverage; sales accelerating",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0078-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0078",
+        "Channel": "HoReCa",
+        "Region": "Rift Valley",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 2,
+        "Weeks of Cover": 0.32,
+        "Risk": 0.398,
+        "Expected Value KES": 241.0,
+        "Reasons": "far from depot; low weeks of cover; sales accelerating; low merchandiser coverage; low closing stock",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0087-Yoghurt 250ml Kids",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0087",
+        "Channel": "Petrol Station",
+        "Region": "Central",
+        "SKU": "Yoghurt 250ml Kids",
+        "Closing Stock": 32,
+        "Weeks of Cover": 1.06,
+        "Risk": 0.382,
+        "Expected Value KES": 137.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; low merchandiser coverage; repeated short deliveries",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0021-Yoghurt 250ml Kids",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0021",
+        "Channel": "HoReCa",
+        "Region": "Nairobi",
+        "SKU": "Yoghurt 250ml Kids",
+        "Closing Stock": 21,
+        "Weeks of Cover": 0.6,
+        "Risk": 0.382,
+        "Expected Value KES": 167.0,
+        "Reasons": "far from depot; low weeks of cover; low merchandiser coverage; sales accelerating",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0182-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0182",
+        "Channel": "Petrol Station",
+        "Region": "Western",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 3,
+        "Weeks of Cover": 0.55,
+        "Risk": 0.382,
+        "Expected Value KES": 196.0,
+        "Reasons": "far from depot; low weeks of cover; sales accelerating; low merchandiser coverage",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0083-Ice Cream 1L Chocolate",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0083",
+        "Channel": "HoReCa",
+        "Region": "Nairobi",
+        "SKU": "Ice Cream 1L Chocolate",
+        "Closing Stock": 8,
+        "Weeks of Cover": 0.97,
+        "Risk": 0.382,
+        "Expected Value KES": 318.0,
+        "Reasons": "promotion next week; far from depot; low weeks of cover; sales accelerating; low merchandiser coverage",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0065-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0065",
+        "Channel": "Petrol Station",
+        "Region": "Nairobi",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 0,
+        "Weeks of Cover": 0.0,
+        "Risk": 0.378,
+        "Expected Value KES": 116.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; low closing stock; repeated short deliveries",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0083-Burger Buns 6pk",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0083",
+        "Channel": "HoReCa",
+        "Region": "Nairobi",
+        "SKU": "Burger Buns 6pk",
+        "Closing Stock": 14,
+        "Weeks of Cover": 1.12,
+        "Risk": 0.375,
+        "Expected Value KES": 102.0,
+        "Reasons": "far from depot; sales accelerating; low weeks of cover; low merchandiser coverage",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0187-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0187",
+        "Channel": "Petrol Station",
+        "Region": "Western",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 4,
+        "Weeks of Cover": 0.94,
+        "Risk": 0.369,
+        "Expected Value KES": 133.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; repeated short deliveries; low merchandiser coverage",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0182-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0182",
+        "Channel": "Petrol Station",
+        "Region": "Western",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 4,
+        "Weeks of Cover": 0.52,
+        "Risk": 0.355,
+        "Expected Value KES": 208.0,
+        "Reasons": "far from depot; low weeks of cover; low merchandiser coverage; sales accelerating",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0078-Bacon 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0078",
+        "Channel": "HoReCa",
+        "Region": "Rift Valley",
+        "SKU": "Bacon 250g",
+        "Closing Stock": 2,
+        "Weeks of Cover": 0.32,
+        "Risk": 0.344,
+        "Expected Value KES": 136.0,
+        "Reasons": "far from depot; low weeks of cover; low merchandiser coverage; sales accelerating; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0071-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0071",
+        "Channel": "Petrol Station",
+        "Region": "Rift Valley",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 34,
+        "Weeks of Cover": 0.6,
+        "Risk": 0.326,
+        "Expected Value KES": 164.0,
+        "Reasons": "low weeks of cover; low merchandiser coverage; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0015-Yoghurt 500ml Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0015",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Yoghurt 500ml Vanilla",
+        "Closing Stock": 53,
+        "Weeks of Cover": 0.97,
+        "Risk": 0.324,
+        "Expected Value KES": 522.0,
+        "Reasons": "low weeks of cover; promotion next week; far from depot; no delivery scheduled next week",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0021-Burger Buns 6pk",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0021",
+        "Channel": "HoReCa",
+        "Region": "Nairobi",
+        "SKU": "Burger Buns 6pk",
+        "Closing Stock": 20,
+        "Weeks of Cover": 0.76,
+        "Risk": 0.322,
+        "Expected Value KES": 223.0,
+        "Reasons": "far from depot; low weeks of cover; low merchandiser coverage; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0132-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0132",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 192,
+        "Weeks of Cover": 1.18,
+        "Risk": 0.312,
+        "Expected Value KES": 544.0,
+        "Reasons": "far from depot; low weeks of cover; low closing stock",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0194-Long-life Milk 1L",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0194",
+        "Channel": "Petrol Station",
+        "Region": "Nyanza",
+        "SKU": "Long-life Milk 1L",
+        "Closing Stock": 13,
+        "Weeks of Cover": 0.78,
+        "Risk": 0.308,
+        "Expected Value KES": 80.0,
+        "Reasons": "low weeks of cover; far from depot; sales accelerating",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0182-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0182",
+        "Channel": "Petrol Station",
+        "Region": "Western",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 51,
+        "Weeks of Cover": 1.28,
+        "Risk": 0.302,
+        "Expected Value KES": 90.0,
+        "Reasons": "far from depot; low merchandiser coverage",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0131-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0131",
+        "Channel": "HoReCa",
+        "Region": "Central",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 46,
+        "Weeks of Cover": 0.78,
+        "Risk": 0.301,
+        "Expected Value KES": 159.0,
+        "Reasons": "low weeks of cover; low merchandiser coverage; far from depot",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0099-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0099",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 162,
+        "Weeks of Cover": 0.95,
+        "Risk": 0.301,
+        "Expected Value KES": 549.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0194-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0194",
+        "Channel": "Petrol Station",
+        "Region": "Nyanza",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 42,
+        "Weeks of Cover": 0.99,
+        "Risk": 0.301,
+        "Expected Value KES": 99.0,
+        "Reasons": "low weeks of cover; far from depot",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0175-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0175",
+        "Channel": "Petrol Station",
+        "Region": "Coast",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 13,
+        "Weeks of Cover": 0.21,
+        "Risk": 0.3,
+        "Expected Value KES": 167.0,
+        "Reasons": "low weeks of cover; low merchandiser coverage; far from depot",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0168-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0168",
+        "Channel": "HoReCa",
+        "Region": "Western",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 3,
+        "Weeks of Cover": 0.46,
+        "Risk": 0.289,
+        "Expected Value KES": 170.0,
+        "Reasons": "far from depot; low weeks of cover; low merchandiser coverage; sales accelerating; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0088-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0088",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 153,
+        "Weeks of Cover": 1.1,
+        "Risk": 0.287,
+        "Expected Value KES": 418.0,
+        "Reasons": "promotion next week; low weeks of cover",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0203-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0203",
+        "Channel": "Duka",
+        "Region": "Nairobi",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 5,
+        "Weeks of Cover": 0.95,
+        "Risk": 0.286,
+        "Expected Value KES": 126.0,
+        "Reasons": "no delivery scheduled next week; low weeks of cover; repeated short deliveries",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0139-Ice Cream 1L Chocolate",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0139",
+        "Channel": "Petrol Station",
+        "Region": "Nairobi",
+        "SKU": "Ice Cream 1L Chocolate",
+        "Closing Stock": 0,
+        "Weeks of Cover": 0.0,
+        "Risk": 0.277,
+        "Expected Value KES": 88.0,
+        "Reasons": "low weeks of cover; low merchandiser coverage; sales accelerating; far from depot; low closing stock",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0192-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0192",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 183,
+        "Weeks of Cover": 1.18,
+        "Risk": 0.275,
+        "Expected Value KES": 450.0,
+        "Reasons": "far from depot; low weeks of cover; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0080-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0080",
+        "Channel": "Duka",
+        "Region": "Central",
+        "SKU": "Butter 250g",
+        "Closing Stock": 0,
+        "Weeks of Cover": 0.0,
+        "Risk": 0.273,
+        "Expected Value KES": 80.0,
+        "Reasons": "far from depot; low weeks of cover; low merchandiser coverage; low closing stock",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0083-Greek Yoghurt 450g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0083",
+        "Channel": "HoReCa",
+        "Region": "Nairobi",
+        "SKU": "Greek Yoghurt 450g",
+        "Closing Stock": 10,
+        "Weeks of Cover": 1.18,
+        "Risk": 0.261,
+        "Expected Value KES": 118.0,
+        "Reasons": "promotion next week; far from depot; no delivery scheduled next week; low weeks of cover; low merchandiser coverage",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0034-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0034",
+        "Channel": "HoReCa",
+        "Region": "Central",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 54,
+        "Weeks of Cover": 1.08,
+        "Risk": 0.26,
+        "Expected Value KES": 101.0,
+        "Reasons": "low weeks of cover; far from depot; low merchandiser coverage",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0136-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0136",
+        "Channel": "HoReCa",
+        "Region": "Nairobi",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 33,
+        "Weeks of Cover": 0.7,
+        "Risk": 0.259,
+        "Expected Value KES": 93.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0132-Burger Buns 6pk",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0132",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Burger Buns 6pk",
+        "Closing Stock": 47,
+        "Weeks of Cover": 1.26,
+        "Risk": 0.258,
+        "Expected Value KES": 261.0,
+        "Reasons": "promotion next week; far from depot; low weeks of cover; no delivery scheduled next week",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0074-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0074",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 44,
+        "Weeks of Cover": 0.84,
+        "Risk": 0.244,
+        "Expected Value KES": 916.0,
+        "Reasons": "low weeks of cover; promotion next week; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0121-Burger Buns 6pk",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0121",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Burger Buns 6pk",
+        "Closing Stock": 22,
+        "Weeks of Cover": 0.7,
+        "Risk": 0.244,
+        "Expected Value KES": 199.0,
+        "Reasons": "promotion next week; low weeks of cover; far from depot; no delivery scheduled next week",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0034-Yoghurt 500ml Strawberry",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0034",
+        "Channel": "HoReCa",
+        "Region": "Central",
+        "SKU": "Yoghurt 500ml Strawberry",
+        "Closing Stock": 20,
+        "Weeks of Cover": 1.18,
+        "Risk": 0.242,
+        "Expected Value KES": 83.0,
+        "Reasons": "promotion next week; low weeks of cover; low merchandiser coverage; no delivery scheduled next week; far from depot",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0083-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0083",
+        "Channel": "HoReCa",
+        "Region": "Nairobi",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 1,
+        "Weeks of Cover": 0.17,
+        "Risk": 0.241,
+        "Expected Value KES": 85.0,
+        "Reasons": "low weeks of cover; far from depot; low merchandiser coverage; low closing stock; sales accelerating",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0021-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0021",
+        "Channel": "HoReCa",
+        "Region": "Nairobi",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 46,
+        "Weeks of Cover": 0.53,
+        "Risk": 0.236,
+        "Expected Value KES": 189.0,
+        "Reasons": "far from depot; low weeks of cover; low merchandiser coverage",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0048-Bacon 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0048",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Bacon 250g",
+        "Closing Stock": 15,
+        "Weeks of Cover": 0.79,
+        "Risk": 0.234,
+        "Expected Value KES": 334.0,
+        "Reasons": "promotion next week; low weeks of cover; far from depot; no delivery scheduled next week; low closing stock",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0067-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0067",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Butter 250g",
+        "Closing Stock": 18,
+        "Weeks of Cover": 1.01,
+        "Risk": 0.23,
+        "Expected Value KES": 236.0,
+        "Reasons": "far from depot; promotion next week; low weeks of cover; repeated short deliveries; strong recent sales",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0109-Ice Cream 1L Chocolate",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0109",
+        "Channel": "HoReCa",
+        "Region": "Rift Valley",
+        "SKU": "Ice Cream 1L Chocolate",
+        "Closing Stock": 8,
+        "Weeks of Cover": 0.97,
+        "Risk": 0.229,
+        "Expected Value KES": 171.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week; sales accelerating; low merchandiser coverage",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0048-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0048",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 82,
+        "Weeks of Cover": 0.36,
+        "Risk": 0.226,
+        "Expected Value KES": 551.0,
+        "Reasons": "promotion next week; far from depot; low weeks of cover",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0160-Yoghurt 500ml Strawberry",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0160",
+        "Channel": "Petrol Station",
+        "Region": "Nairobi",
+        "SKU": "Yoghurt 500ml Strawberry",
+        "Closing Stock": 3,
+        "Weeks of Cover": 0.15,
+        "Risk": 0.224,
+        "Expected Value KES": 91.0,
+        "Reasons": "low weeks of cover; low merchandiser coverage; far from depot",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0219-Long-life Milk 1L",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0219",
+        "Channel": "HoReCa",
+        "Region": "Nairobi",
+        "SKU": "Long-life Milk 1L",
+        "Closing Stock": 26,
+        "Weeks of Cover": 0.69,
+        "Risk": 0.22,
+        "Expected Value KES": 159.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; sales accelerating",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0195-Yoghurt 250ml Kids",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0195",
+        "Channel": "Petrol Station",
+        "Region": "Nairobi",
+        "SKU": "Yoghurt 250ml Kids",
+        "Closing Stock": 30,
+        "Weeks of Cover": 0.65,
+        "Risk": 0.214,
+        "Expected Value KES": 110.0,
+        "Reasons": "low weeks of cover; low merchandiser coverage; far from depot; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0021-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0021",
+        "Channel": "HoReCa",
+        "Region": "Nairobi",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 0,
+        "Weeks of Cover": 0.0,
+        "Risk": 0.212,
+        "Expected Value KES": 159.0,
+        "Reasons": "far from depot; low weeks of cover; sales accelerating; low merchandiser coverage; low closing stock",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0220-Yoghurt 250ml Kids",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0220",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Yoghurt 250ml Kids",
+        "Closing Stock": 69,
+        "Weeks of Cover": 0.81,
+        "Risk": 0.211,
+        "Expected Value KES": 241.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0111-Long-life Milk 1L",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0111",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Long-life Milk 1L",
+        "Closing Stock": 56,
+        "Weeks of Cover": 1.13,
+        "Risk": 0.209,
+        "Expected Value KES": 213.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0029-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0029",
+        "Channel": "HoReCa",
+        "Region": "Coast",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 41,
+        "Weeks of Cover": 0.61,
+        "Risk": 0.209,
+        "Expected Value KES": 113.0,
+        "Reasons": "low weeks of cover; low merchandiser coverage; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0021-Greek Yoghurt 450g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0021",
+        "Channel": "HoReCa",
+        "Region": "Nairobi",
+        "SKU": "Greek Yoghurt 450g",
+        "Closing Stock": 3,
+        "Weeks of Cover": 0.28,
+        "Risk": 0.208,
+        "Expected Value KES": 119.0,
+        "Reasons": "far from depot; low weeks of cover; low merchandiser coverage; sales accelerating; low closing stock",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0074-Yoghurt 250ml Kids",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0074",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Yoghurt 250ml Kids",
+        "Closing Stock": 0,
+        "Weeks of Cover": 0.0,
+        "Risk": 0.206,
+        "Expected Value KES": 324.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week; low closing stock",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0060-Burger Buns 6pk",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0060",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Burger Buns 6pk",
+        "Closing Stock": 0,
+        "Weeks of Cover": 0.0,
+        "Risk": 0.206,
+        "Expected Value KES": 333.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0021-Ice Cream 1L Chocolate",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0021",
+        "Channel": "HoReCa",
+        "Region": "Nairobi",
+        "SKU": "Ice Cream 1L Chocolate",
+        "Closing Stock": 1,
+        "Weeks of Cover": 0.11,
+        "Risk": 0.206,
+        "Expected Value KES": 161.0,
+        "Reasons": "far from depot; low weeks of cover; low merchandiser coverage; low closing stock; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0219-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0219",
+        "Channel": "HoReCa",
+        "Region": "Nairobi",
+        "SKU": "Butter 250g",
+        "Closing Stock": 13,
+        "Weeks of Cover": 0.61,
+        "Risk": 0.204,
+        "Expected Value KES": 255.0,
+        "Reasons": "low weeks of cover; far from depot; sales accelerating; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0038-Greek Yoghurt 450g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0038",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Greek Yoghurt 450g",
+        "Closing Stock": 28,
+        "Weeks of Cover": 0.96,
+        "Risk": 0.204,
+        "Expected Value KES": 401.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0192-Yoghurt 500ml Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0192",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Yoghurt 500ml Vanilla",
+        "Closing Stock": 51,
+        "Weeks of Cover": 0.99,
+        "Risk": 0.197,
+        "Expected Value KES": 280.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0104-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0104",
+        "Channel": "HoReCa",
+        "Region": "Central",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 67,
+        "Weeks of Cover": 0.91,
+        "Risk": 0.193,
+        "Expected Value KES": 117.0,
+        "Reasons": "low weeks of cover; low merchandiser coverage; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0091-Ice Cream 1L Chocolate",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0091",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Ice Cream 1L Chocolate",
+        "Closing Stock": 22,
+        "Weeks of Cover": 0.73,
+        "Risk": 0.193,
+        "Expected Value KES": 633.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0057-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0057",
+        "Channel": "Duka",
+        "Region": "Central",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 8,
+        "Weeks of Cover": 0.12,
+        "Risk": 0.192,
+        "Expected Value KES": 98.0,
+        "Reasons": "promotion next week; low weeks of cover",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0219-Yoghurt 500ml Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0219",
+        "Channel": "HoReCa",
+        "Region": "Nairobi",
+        "SKU": "Yoghurt 500ml Vanilla",
+        "Closing Stock": 25,
+        "Weeks of Cover": 0.88,
+        "Risk": 0.187,
+        "Expected Value KES": 123.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0172-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0172",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 31,
+        "Weeks of Cover": 0.35,
+        "Risk": 0.183,
+        "Expected Value KES": 142.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0048-Long-life Milk 1L",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0048",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Long-life Milk 1L",
+        "Closing Stock": 80,
+        "Weeks of Cover": 0.9,
+        "Risk": 0.182,
+        "Expected Value KES": 357.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0009-Yoghurt 500ml Strawberry",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0009",
+        "Channel": "HoReCa",
+        "Region": "Nairobi",
+        "SKU": "Yoghurt 500ml Strawberry",
+        "Closing Stock": 38,
+        "Weeks of Cover": 0.86,
+        "Risk": 0.178,
+        "Expected Value KES": 206.0,
+        "Reasons": "low weeks of cover; low merchandiser coverage; no delivery scheduled next week; far from depot",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0220-Yoghurt 500ml Strawberry",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0220",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Yoghurt 500ml Strawberry",
+        "Closing Stock": 47,
+        "Weeks of Cover": 0.75,
+        "Risk": 0.178,
+        "Expected Value KES": 311.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0215-Yoghurt 250ml Kids",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0215",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Yoghurt 250ml Kids",
+        "Closing Stock": 77,
+        "Weeks of Cover": 0.85,
+        "Risk": 0.174,
+        "Expected Value KES": 206.0,
+        "Reasons": "low weeks of cover; far from depot; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0071-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0071",
+        "Channel": "Petrol Station",
+        "Region": "Rift Valley",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 11,
+        "Weeks of Cover": 1.26,
+        "Risk": 0.173,
+        "Expected Value KES": 92.0,
+        "Reasons": "no delivery scheduled next week; low merchandiser coverage; repeated short deliveries; sales accelerating",
+        "Suggested Action": "Raise an emergency top-up order",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0022-Yoghurt 500ml Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0022",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Yoghurt 500ml Vanilla",
+        "Closing Stock": 23,
+        "Weeks of Cover": 0.7,
+        "Risk": 0.172,
+        "Expected Value KES": 133.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0157-Greek Yoghurt 450g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0157",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Greek Yoghurt 450g",
+        "Closing Stock": 9,
+        "Weeks of Cover": 0.88,
+        "Risk": 0.172,
+        "Expected Value KES": 83.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries; low closing stock",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0202-Yoghurt 250ml Kids",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0202",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Yoghurt 250ml Kids",
+        "Closing Stock": 84,
+        "Weeks of Cover": 0.79,
+        "Risk": 0.172,
+        "Expected Value KES": 245.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0108-Mozzarella 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0108",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Mozzarella 200g",
+        "Closing Stock": 8,
+        "Weeks of Cover": 0.7,
+        "Risk": 0.171,
+        "Expected Value KES": 149.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week; low closing stock",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0015-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0015",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 149,
+        "Weeks of Cover": 0.81,
+        "Risk": 0.171,
+        "Expected Value KES": 318.0,
+        "Reasons": "low weeks of cover; far from depot; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0109-Yoghurt 500ml Strawberry",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0109",
+        "Channel": "HoReCa",
+        "Region": "Rift Valley",
+        "SKU": "Yoghurt 500ml Strawberry",
+        "Closing Stock": 17,
+        "Weeks of Cover": 0.72,
+        "Risk": 0.169,
+        "Expected Value KES": 80.0,
+        "Reasons": "low weeks of cover; low merchandiser coverage; no delivery scheduled next week; recent stock-out history",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0200-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0200",
+        "Channel": "HoReCa",
+        "Region": "Nairobi",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 3,
+        "Weeks of Cover": 0.41,
+        "Risk": 0.169,
+        "Expected Value KES": 93.0,
+        "Reasons": "low weeks of cover; low merchandiser coverage; no delivery scheduled next week; far from depot",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0015-Mozzarella 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0015",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Mozzarella 200g",
+        "Closing Stock": 21,
+        "Weeks of Cover": 0.91,
+        "Risk": 0.168,
+        "Expected Value KES": 339.0,
+        "Reasons": "low weeks of cover; far from depot; repeated short deliveries; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0079-Long-life Milk 1L",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0079",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Long-life Milk 1L",
+        "Closing Stock": 6,
+        "Weeks of Cover": 0.16,
+        "Risk": 0.166,
+        "Expected Value KES": 106.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0198-Yoghurt 250ml Kids",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0198",
+        "Channel": "HoReCa",
+        "Region": "Nyanza",
+        "SKU": "Yoghurt 250ml Kids",
+        "Closing Stock": 48,
+        "Weeks of Cover": 0.81,
+        "Risk": 0.165,
+        "Expected Value KES": 109.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; low merchandiser coverage",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0132-Yoghurt 250ml Kids",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0132",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Yoghurt 250ml Kids",
+        "Closing Stock": 60,
+        "Weeks of Cover": 0.79,
+        "Risk": 0.164,
+        "Expected Value KES": 153.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; sales accelerating",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0114-Mozzarella 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0114",
+        "Channel": "HoReCa",
+        "Region": "Nairobi",
+        "SKU": "Mozzarella 200g",
+        "Closing Stock": 5,
+        "Weeks of Cover": 0.54,
+        "Risk": 0.163,
+        "Expected Value KES": 102.0,
+        "Reasons": "promotion next week; low weeks of cover; low merchandiser coverage; no delivery scheduled next week",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0015-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0015",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 36,
+        "Weeks of Cover": 0.87,
+        "Risk": 0.161,
+        "Expected Value KES": 451.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0215-Ice Cream 1L Chocolate",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0215",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Ice Cream 1L Chocolate",
+        "Closing Stock": 16,
+        "Weeks of Cover": 0.83,
+        "Risk": 0.159,
+        "Expected Value KES": 308.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0110-Yoghurt 500ml Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0110",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Yoghurt 500ml Vanilla",
+        "Closing Stock": 32,
+        "Weeks of Cover": 0.79,
+        "Risk": 0.156,
+        "Expected Value KES": 156.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0121-Mozzarella 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0121",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Mozzarella 200g",
+        "Closing Stock": 8,
+        "Weeks of Cover": 0.73,
+        "Risk": 0.156,
+        "Expected Value KES": 123.0,
+        "Reasons": "promotion next week; low weeks of cover; far from depot; low closing stock; sales accelerating",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0101-Long-life Milk 1L",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0101",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Long-life Milk 1L",
+        "Closing Stock": 46,
+        "Weeks of Cover": 0.93,
+        "Risk": 0.156,
+        "Expected Value KES": 144.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0070-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0070",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 104,
+        "Weeks of Cover": 1.02,
+        "Risk": 0.155,
+        "Expected Value KES": 136.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0202-Burger Buns 6pk",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0202",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Burger Buns 6pk",
+        "Closing Stock": 50,
+        "Weeks of Cover": 0.87,
+        "Risk": 0.155,
+        "Expected Value KES": 237.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0184-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0184",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 186,
+        "Weeks of Cover": 1.07,
+        "Risk": 0.151,
+        "Expected Value KES": 256.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; low closing stock",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0007-Long-life Milk 1L",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0007",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Long-life Milk 1L",
+        "Closing Stock": 44,
+        "Weeks of Cover": 1.28,
+        "Risk": 0.151,
+        "Expected Value KES": 80.0,
+        "Reasons": "promotion next week; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0108-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0108",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 107,
+        "Weeks of Cover": 0.89,
+        "Risk": 0.145,
+        "Expected Value KES": 155.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0202-Yoghurt 500ml Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0202",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Yoghurt 500ml Vanilla",
+        "Closing Stock": 50,
+        "Weeks of Cover": 0.72,
+        "Risk": 0.145,
+        "Expected Value KES": 274.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0215-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0215",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 20,
+        "Weeks of Cover": 0.93,
+        "Risk": 0.145,
+        "Expected Value KES": 314.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0199-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0199",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 30,
+        "Weeks of Cover": 1.02,
+        "Risk": 0.144,
+        "Expected Value KES": 271.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week; sales accelerating",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0132-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0132",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Butter 250g",
+        "Closing Stock": 30,
+        "Weeks of Cover": 0.92,
+        "Risk": 0.144,
+        "Expected Value KES": 277.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0207-Burger Buns 6pk",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0207",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Burger Buns 6pk",
+        "Closing Stock": 38,
+        "Weeks of Cover": 0.79,
+        "Risk": 0.143,
+        "Expected Value KES": 174.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0220-Yoghurt 500ml Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0220",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Yoghurt 500ml Vanilla",
+        "Closing Stock": 46,
+        "Weeks of Cover": 1.0,
+        "Risk": 0.143,
+        "Expected Value KES": 162.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0157-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0157",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 56,
+        "Weeks of Cover": 0.72,
+        "Risk": 0.142,
+        "Expected Value KES": 78.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0015-Burger Buns 6pk",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0015",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Burger Buns 6pk",
+        "Closing Stock": 53,
+        "Weeks of Cover": 1.28,
+        "Risk": 0.14,
+        "Expected Value KES": 139.0,
+        "Reasons": "far from depot; low weeks of cover; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0128-Greek Yoghurt 450g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0128",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Greek Yoghurt 450g",
+        "Closing Stock": 11,
+        "Weeks of Cover": 0.85,
+        "Risk": 0.139,
+        "Expected Value KES": 86.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week; sales accelerating; low closing stock",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0133-Long-life Milk 1L",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0133",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Long-life Milk 1L",
+        "Closing Stock": 34,
+        "Weeks of Cover": 0.85,
+        "Risk": 0.138,
+        "Expected Value KES": 90.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0101-Greek Yoghurt 450g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0101",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Greek Yoghurt 450g",
+        "Closing Stock": 12,
+        "Weeks of Cover": 0.86,
+        "Risk": 0.137,
+        "Expected Value KES": 95.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0099-Long-life Milk 1L",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0099",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Long-life Milk 1L",
+        "Closing Stock": 47,
+        "Weeks of Cover": 0.62,
+        "Risk": 0.136,
+        "Expected Value KES": 211.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0041-Bacon 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0041",
+        "Channel": "Supermarket",
+        "Region": "Nyanza",
+        "SKU": "Bacon 250g",
+        "Closing Stock": 14,
+        "Weeks of Cover": 0.85,
+        "Risk": 0.135,
+        "Expected Value KES": 143.0,
+        "Reasons": "low weeks of cover; far from depot; repeated short deliveries; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0073-Mozzarella 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0073",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Mozzarella 200g",
+        "Closing Stock": 7,
+        "Weeks of Cover": 0.72,
+        "Risk": 0.135,
+        "Expected Value KES": 83.0,
+        "Reasons": "far from depot; low weeks of cover; low closing stock; repeated short deliveries; recent stock-out history",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0121-Greek Yoghurt 450g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0121",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Greek Yoghurt 450g",
+        "Closing Stock": 15,
+        "Weeks of Cover": 0.9,
+        "Risk": 0.134,
+        "Expected Value KES": 120.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries; sales accelerating",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0192-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0192",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Butter 250g",
+        "Closing Stock": 31,
+        "Weeks of Cover": 1.17,
+        "Risk": 0.134,
+        "Expected Value KES": 200.0,
+        "Reasons": "far from depot; low weeks of cover; sales accelerating; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0048-Burger Buns 6pk",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0048",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Burger Buns 6pk",
+        "Closing Stock": 28,
+        "Weeks of Cover": 0.63,
+        "Risk": 0.133,
+        "Expected Value KES": 143.0,
+        "Reasons": "far from depot; low weeks of cover; sales accelerating; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0061-Long-life Milk 1L",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0061",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Long-life Milk 1L",
+        "Closing Stock": 42,
+        "Weeks of Cover": 0.78,
+        "Risk": 0.133,
+        "Expected Value KES": 130.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0195-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0195",
+        "Channel": "Petrol Station",
+        "Region": "Nairobi",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 6,
+        "Weeks of Cover": 0.44,
+        "Risk": 0.132,
+        "Expected Value KES": 119.0,
+        "Reasons": "low weeks of cover; low merchandiser coverage; far from depot",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0173-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0173",
+        "Channel": "Supermarket",
+        "Region": "Nyanza",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 205,
+        "Weeks of Cover": 1.16,
+        "Risk": 0.131,
+        "Expected Value KES": 222.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0015-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0015",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Butter 250g",
+        "Closing Stock": 29,
+        "Weeks of Cover": 0.91,
+        "Risk": 0.131,
+        "Expected Value KES": 245.0,
+        "Reasons": "low weeks of cover; far from depot; low closing stock; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0008-Yoghurt 500ml Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0008",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Yoghurt 500ml Vanilla",
+        "Closing Stock": 34,
+        "Weeks of Cover": 0.91,
+        "Risk": 0.131,
+        "Expected Value KES": 110.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0220-Bacon 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0220",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Bacon 250g",
+        "Closing Stock": 15,
+        "Weeks of Cover": 1.05,
+        "Risk": 0.131,
+        "Expected Value KES": 112.0,
+        "Reasons": "far from depot; low weeks of cover; repeated short deliveries; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0089-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0089",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 0,
+        "Weeks of Cover": 0.0,
+        "Risk": 0.13,
+        "Expected Value KES": 133.0,
+        "Reasons": "promotion next week; low weeks of cover; repeated short deliveries",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0042-Ice Cream 1L Chocolate",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0042",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Ice Cream 1L Chocolate",
+        "Closing Stock": 23,
+        "Weeks of Cover": 0.97,
+        "Risk": 0.13,
+        "Expected Value KES": 310.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0217-Long-life Milk 1L",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0217",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Long-life Milk 1L",
+        "Closing Stock": 54,
+        "Weeks of Cover": 0.8,
+        "Risk": 0.128,
+        "Expected Value KES": 167.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0133-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0133",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Butter 250g",
+        "Closing Stock": 15,
+        "Weeks of Cover": 0.75,
+        "Risk": 0.128,
+        "Expected Value KES": 130.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0157-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0157",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Butter 250g",
+        "Closing Stock": 14,
+        "Weeks of Cover": 0.95,
+        "Risk": 0.128,
+        "Expected Value KES": 82.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0215-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0215",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Butter 250g",
+        "Closing Stock": 30,
+        "Weeks of Cover": 0.94,
+        "Risk": 0.127,
+        "Expected Value KES": 234.0,
+        "Reasons": "low weeks of cover; far from depot; sales accelerating; repeated short deliveries; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0198-Yoghurt 500ml Strawberry",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0198",
+        "Channel": "HoReCa",
+        "Region": "Nyanza",
+        "SKU": "Yoghurt 500ml Strawberry",
+        "Closing Stock": 19,
+        "Weeks of Cover": 0.49,
+        "Risk": 0.127,
+        "Expected Value KES": 109.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0073-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0073",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 9,
+        "Weeks of Cover": 0.6,
+        "Risk": 0.126,
+        "Expected Value KES": 171.0,
+        "Reasons": "promotion next week; far from depot; low weeks of cover; no delivery scheduled next week; low closing stock",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0220-Greek Yoghurt 450g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0220",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Greek Yoghurt 450g",
+        "Closing Stock": 19,
+        "Weeks of Cover": 0.68,
+        "Risk": 0.126,
+        "Expected Value KES": 216.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0110-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0110",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 20,
+        "Weeks of Cover": 0.82,
+        "Risk": 0.125,
+        "Expected Value KES": 237.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0048-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0048",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Butter 250g",
+        "Closing Stock": 34,
+        "Weeks of Cover": 0.82,
+        "Risk": 0.125,
+        "Expected Value KES": 315.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0040-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0040",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 47,
+        "Weeks of Cover": 0.54,
+        "Risk": 0.125,
+        "Expected Value KES": 78.0,
+        "Reasons": "promotion next week; no delivery scheduled next week; far from depot",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0054-Yoghurt 500ml Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0054",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Yoghurt 500ml Vanilla",
+        "Closing Stock": 32,
+        "Weeks of Cover": 0.9,
+        "Risk": 0.124,
+        "Expected Value KES": 94.0,
+        "Reasons": "low weeks of cover; sales accelerating; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0132-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0132",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 20,
+        "Weeks of Cover": 0.95,
+        "Risk": 0.123,
+        "Expected Value KES": 253.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries; sales accelerating",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0041-Greek Yoghurt 450g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0041",
+        "Channel": "Supermarket",
+        "Region": "Nyanza",
+        "SKU": "Greek Yoghurt 450g",
+        "Closing Stock": 27,
+        "Weeks of Cover": 0.88,
+        "Risk": 0.123,
+        "Expected Value KES": 236.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0048-Yoghurt 500ml Strawberry",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0048",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Yoghurt 500ml Strawberry",
+        "Closing Stock": 38,
+        "Weeks of Cover": 0.49,
+        "Risk": 0.123,
+        "Expected Value KES": 259.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0192-Burger Buns 6pk",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0192",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Burger Buns 6pk",
+        "Closing Stock": 21,
+        "Weeks of Cover": 0.56,
+        "Risk": 0.121,
+        "Expected Value KES": 97.0,
+        "Reasons": "far from depot; low weeks of cover; sales accelerating; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0074-Greek Yoghurt 450g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0074",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Greek Yoghurt 450g",
+        "Closing Stock": 31,
+        "Weeks of Cover": 0.9,
+        "Risk": 0.12,
+        "Expected Value KES": 264.0,
+        "Reasons": "low weeks of cover; sales accelerating; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0151-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0151",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 106,
+        "Weeks of Cover": 0.84,
+        "Risk": 0.12,
+        "Expected Value KES": 126.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0220-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0220",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 26,
+        "Weeks of Cover": 0.81,
+        "Risk": 0.119,
+        "Expected Value KES": 307.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0073-Yoghurt 500ml Strawberry",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0073",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Yoghurt 500ml Strawberry",
+        "Closing Stock": 39,
+        "Weeks of Cover": 1.17,
+        "Risk": 0.119,
+        "Expected Value KES": 78.0,
+        "Reasons": "promotion next week; far from depot; low weeks of cover; repeated short deliveries",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0048-Ice Cream 1L Chocolate",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0048",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Ice Cream 1L Chocolate",
+        "Closing Stock": 20,
+        "Weeks of Cover": 0.96,
+        "Risk": 0.119,
+        "Expected Value KES": 239.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0121-Yoghurt 500ml Strawberry",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0121",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Yoghurt 500ml Strawberry",
+        "Closing Stock": 48,
+        "Weeks of Cover": 1.02,
+        "Risk": 0.119,
+        "Expected Value KES": 131.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0202-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0202",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 277,
+        "Weeks of Cover": 1.15,
+        "Risk": 0.119,
+        "Expected Value KES": 286.0,
+        "Reasons": "low weeks of cover; far from depot; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0219-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0219",
+        "Channel": "HoReCa",
+        "Region": "Nairobi",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 20,
+        "Weeks of Cover": 0.93,
+        "Risk": 0.118,
+        "Expected Value KES": 141.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries; low merchandiser coverage",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0217-Yoghurt 250ml Kids",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0217",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Yoghurt 250ml Kids",
+        "Closing Stock": 46,
+        "Weeks of Cover": 0.64,
+        "Risk": 0.117,
+        "Expected Value KES": 87.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week; far from depot",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0202-Greek Yoghurt 450g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0202",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Greek Yoghurt 450g",
+        "Closing Stock": 30,
+        "Weeks of Cover": 0.98,
+        "Risk": 0.117,
+        "Expected Value KES": 220.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0021-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0021",
+        "Channel": "HoReCa",
+        "Region": "Nairobi",
+        "SKU": "Butter 250g",
+        "Closing Stock": 6,
+        "Weeks of Cover": 0.36,
+        "Risk": 0.116,
+        "Expected Value KES": 84.0,
+        "Reasons": "far from depot; low weeks of cover; low merchandiser coverage; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0091-Yoghurt 250ml Kids",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0091",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Yoghurt 250ml Kids",
+        "Closing Stock": 89,
+        "Weeks of Cover": 0.78,
+        "Risk": 0.116,
+        "Expected Value KES": 165.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0184-Long-life Milk 1L",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0184",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Long-life Milk 1L",
+        "Closing Stock": 51,
+        "Weeks of Cover": 0.73,
+        "Risk": 0.115,
+        "Expected Value KES": 153.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; far from depot",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0049-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0049",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Butter 250g",
+        "Closing Stock": 7,
+        "Weeks of Cover": 0.26,
+        "Risk": 0.113,
+        "Expected Value KES": 162.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0220-Long-life Milk 1L",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0220",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Long-life Milk 1L",
+        "Closing Stock": 75,
+        "Weeks of Cover": 0.99,
+        "Risk": 0.112,
+        "Expected Value KES": 163.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0036-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0036",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 32,
+        "Weeks of Cover": 0.85,
+        "Risk": 0.111,
+        "Expected Value KES": 266.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0113-Greek Yoghurt 450g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0113",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Greek Yoghurt 450g",
+        "Closing Stock": 10,
+        "Weeks of Cover": 0.61,
+        "Risk": 0.111,
+        "Expected Value KES": 86.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0038-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0038",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Butter 250g",
+        "Closing Stock": 16,
+        "Weeks of Cover": 0.34,
+        "Risk": 0.11,
+        "Expected Value KES": 314.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0001-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0001",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 252,
+        "Weeks of Cover": 0.93,
+        "Risk": 0.11,
+        "Expected Value KES": 298.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0067-Mozzarella 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0067",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Mozzarella 200g",
+        "Closing Stock": 4,
+        "Weeks of Cover": 0.3,
+        "Risk": 0.109,
+        "Expected Value KES": 96.0,
+        "Reasons": "far from depot; low weeks of cover; repeated short deliveries; low closing stock",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0041-Ice Cream 1L Chocolate",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0041",
+        "Channel": "Supermarket",
+        "Region": "Nyanza",
+        "SKU": "Ice Cream 1L Chocolate",
+        "Closing Stock": 16,
+        "Weeks of Cover": 0.71,
+        "Risk": 0.108,
+        "Expected Value KES": 235.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0101-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0101",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 13,
+        "Weeks of Cover": 0.94,
+        "Risk": 0.108,
+        "Expected Value KES": 124.0,
+        "Reasons": "low weeks of cover; far from depot; repeated short deliveries; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0001-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0001",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Butter 250g",
+        "Closing Stock": 31,
+        "Weeks of Cover": 0.59,
+        "Risk": 0.107,
+        "Expected Value KES": 345.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0088-Yoghurt 500ml Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0088",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Yoghurt 500ml Vanilla",
+        "Closing Stock": 50,
+        "Weeks of Cover": 1.19,
+        "Risk": 0.105,
+        "Expected Value KES": 93.0,
+        "Reasons": "promotion next week; low weeks of cover; strong recent sales",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0036-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0036",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 22,
+        "Weeks of Cover": 0.93,
+        "Risk": 0.104,
+        "Expected Value KES": 182.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries; sales accelerating",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0030-Yoghurt 500ml Strawberry",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0030",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Yoghurt 500ml Strawberry",
+        "Closing Stock": 39,
+        "Weeks of Cover": 0.92,
+        "Risk": 0.104,
+        "Expected Value KES": 92.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0061-Ice Cream 1L Chocolate",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0061",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Ice Cream 1L Chocolate",
+        "Closing Stock": 10,
+        "Weeks of Cover": 0.77,
+        "Risk": 0.103,
+        "Expected Value KES": 107.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; far from depot; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0060-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0060",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 260,
+        "Weeks of Cover": 1.0,
+        "Risk": 0.103,
+        "Expected Value KES": 264.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0015-Greek Yoghurt 450g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0015",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Greek Yoghurt 450g",
+        "Closing Stock": 16,
+        "Weeks of Cover": 0.67,
+        "Risk": 0.103,
+        "Expected Value KES": 134.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0111-Yoghurt 500ml Strawberry",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0111",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Yoghurt 500ml Strawberry",
+        "Closing Stock": 41,
+        "Weeks of Cover": 0.79,
+        "Risk": 0.102,
+        "Expected Value KES": 121.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0041-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0041",
+        "Channel": "Supermarket",
+        "Region": "Nyanza",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 28,
+        "Weeks of Cover": 0.8,
+        "Risk": 0.101,
+        "Expected Value KES": 280.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0173-Yoghurt 500ml Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0173",
+        "Channel": "Supermarket",
+        "Region": "Nyanza",
+        "SKU": "Yoghurt 500ml Vanilla",
+        "Closing Stock": 46,
+        "Weeks of Cover": 1.0,
+        "Risk": 0.101,
+        "Expected Value KES": 99.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; far from depot",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0066-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0066",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 18,
+        "Weeks of Cover": 0.75,
+        "Risk": 0.1,
+        "Expected Value KES": 175.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; sales accelerating; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0133-Ice Cream 1L Chocolate",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0133",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Ice Cream 1L Chocolate",
+        "Closing Stock": 9,
+        "Weeks of Cover": 0.69,
+        "Risk": 0.1,
+        "Expected Value KES": 102.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; sales accelerating; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0091-Long-life Milk 1L",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0091",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Long-life Milk 1L",
+        "Closing Stock": 56,
+        "Weeks of Cover": 0.52,
+        "Risk": 0.1,
+        "Expected Value KES": 218.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0004-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0004",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 25,
+        "Weeks of Cover": 1.01,
+        "Risk": 0.098,
+        "Expected Value KES": 235.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0101-Ice Cream 1L Chocolate",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0101",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Ice Cream 1L Chocolate",
+        "Closing Stock": 11,
+        "Weeks of Cover": 0.88,
+        "Risk": 0.098,
+        "Expected Value KES": 93.0,
+        "Reasons": "low weeks of cover; far from depot; low closing stock; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0054-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0054",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Butter 250g",
+        "Closing Stock": 31,
+        "Weeks of Cover": 0.98,
+        "Risk": 0.097,
+        "Expected Value KES": 165.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0088-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0088",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 22,
+        "Weeks of Cover": 0.94,
+        "Risk": 0.096,
+        "Expected Value KES": 160.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0151-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0151",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 17,
+        "Weeks of Cover": 0.86,
+        "Risk": 0.095,
+        "Expected Value KES": 92.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries; recent stock-out history",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0101-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0101",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 19,
+        "Weeks of Cover": 1.03,
+        "Risk": 0.095,
+        "Expected Value KES": 114.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0036-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0036",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 19,
+        "Weeks of Cover": 0.83,
+        "Risk": 0.095,
+        "Expected Value KES": 202.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0073-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0073",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 0,
+        "Weeks of Cover": 0.0,
+        "Risk": 0.094,
+        "Expected Value KES": 113.0,
+        "Reasons": "far from depot; sales accelerating; low weeks of cover; low closing stock; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0215-Long-life Milk 1L",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0215",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Long-life Milk 1L",
+        "Closing Stock": 70,
+        "Weeks of Cover": 1.06,
+        "Risk": 0.094,
+        "Expected Value KES": 105.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0041-Burger Buns 6pk",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0041",
+        "Channel": "Supermarket",
+        "Region": "Nyanza",
+        "SKU": "Burger Buns 6pk",
+        "Closing Stock": 35,
+        "Weeks of Cover": 0.72,
+        "Risk": 0.093,
+        "Expected Value KES": 95.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0074-Yoghurt 500ml Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0074",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Yoghurt 500ml Vanilla",
+        "Closing Stock": 28,
+        "Weeks of Cover": 0.43,
+        "Risk": 0.093,
+        "Expected Value KES": 148.0,
+        "Reasons": "promotion next week; low weeks of cover; no delivery scheduled next week; sales accelerating",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0030-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0030",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 88,
+        "Weeks of Cover": 0.73,
+        "Risk": 0.093,
+        "Expected Value KES": 81.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0048-Yoghurt 500ml Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0048",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Yoghurt 500ml Vanilla",
+        "Closing Stock": 21,
+        "Weeks of Cover": 0.31,
+        "Risk": 0.093,
+        "Expected Value KES": 152.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; sales accelerating",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0061-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0061",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 17,
+        "Weeks of Cover": 0.87,
+        "Risk": 0.092,
+        "Expected Value KES": 118.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries; far from depot",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0089-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0089",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 17,
+        "Weeks of Cover": 0.93,
+        "Risk": 0.092,
+        "Expected Value KES": 107.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0001-Yoghurt 500ml Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0001",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Yoghurt 500ml Vanilla",
+        "Closing Stock": 66,
+        "Weeks of Cover": 0.85,
+        "Risk": 0.092,
+        "Expected Value KES": 180.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0207-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0207",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 29,
+        "Weeks of Cover": 0.99,
+        "Risk": 0.092,
+        "Expected Value KES": 201.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0133-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0133",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 19,
+        "Weeks of Cover": 1.0,
+        "Risk": 0.09,
+        "Expected Value KES": 110.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0121-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0121",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Butter 250g",
+        "Closing Stock": 23,
+        "Weeks of Cover": 1.07,
+        "Risk": 0.09,
+        "Expected Value KES": 86.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0192-Ice Cream 1L Chocolate",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0192",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Ice Cream 1L Chocolate",
+        "Closing Stock": 12,
+        "Weeks of Cover": 0.72,
+        "Risk": 0.09,
+        "Expected Value KES": 126.0,
+        "Reasons": "low weeks of cover; far from depot; low closing stock; repeated short deliveries; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0111-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0111",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 26,
+        "Weeks of Cover": 0.9,
+        "Risk": 0.09,
+        "Expected Value KES": 145.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0198-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0198",
+        "Channel": "HoReCa",
+        "Region": "Nyanza",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 23,
+        "Weeks of Cover": 0.92,
+        "Risk": 0.088,
+        "Expected Value KES": 116.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries; low merchandiser coverage",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0038-Long-life Milk 1L",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0038",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Long-life Milk 1L",
+        "Closing Stock": 82,
+        "Weeks of Cover": 0.86,
+        "Risk": 0.087,
+        "Expected Value KES": 160.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0121-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0121",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 9,
+        "Weeks of Cover": 0.43,
+        "Risk": 0.086,
+        "Expected Value KES": 118.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries; low closing stock",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0202-Yoghurt 500ml Strawberry",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0202",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Yoghurt 500ml Strawberry",
+        "Closing Stock": 36,
+        "Weeks of Cover": 0.44,
+        "Risk": 0.086,
+        "Expected Value KES": 177.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0091-Greek Yoghurt 450g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0091",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Greek Yoghurt 450g",
+        "Closing Stock": 26,
+        "Weeks of Cover": 0.78,
+        "Risk": 0.086,
+        "Expected Value KES": 168.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0008-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0008",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 12,
+        "Weeks of Cover": 0.68,
+        "Risk": 0.084,
+        "Expected Value KES": 125.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0038-Yoghurt 500ml Strawberry",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0038",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Yoghurt 500ml Strawberry",
+        "Closing Stock": 85,
+        "Weeks of Cover": 0.99,
+        "Risk": 0.084,
+        "Expected Value KES": 184.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0091-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0091",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 182,
+        "Weeks of Cover": 0.72,
+        "Risk": 0.084,
+        "Expected Value KES": 200.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0173-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0173",
+        "Channel": "Supermarket",
+        "Region": "Nyanza",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 18,
+        "Weeks of Cover": 0.52,
+        "Risk": 0.084,
+        "Expected Value KES": 170.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries; far from depot",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0054-Ice Cream 1L Chocolate",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0054",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Ice Cream 1L Chocolate",
+        "Closing Stock": 12,
+        "Weeks of Cover": 0.68,
+        "Risk": 0.083,
+        "Expected Value KES": 122.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries; low closing stock",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0220-Ice Cream 1L Chocolate",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0220",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Ice Cream 1L Chocolate",
+        "Closing Stock": 19,
+        "Weeks of Cover": 1.13,
+        "Risk": 0.083,
+        "Expected Value KES": 112.0,
+        "Reasons": "low weeks of cover; far from depot; sales accelerating; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0202-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0202",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 16,
+        "Weeks of Cover": 0.52,
+        "Risk": 0.082,
+        "Expected Value KES": 246.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0064-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0064",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 15,
+        "Weeks of Cover": 0.69,
+        "Risk": 0.082,
+        "Expected Value KES": 85.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0169-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0169",
+        "Channel": "Supermarket",
+        "Region": "Nyanza",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 40,
+        "Weeks of Cover": 0.24,
+        "Risk": 0.082,
+        "Expected Value KES": 107.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0113-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0113",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 28,
+        "Weeks of Cover": 1.07,
+        "Risk": 0.082,
+        "Expected Value KES": 112.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0116-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0116",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 39,
+        "Weeks of Cover": 0.8,
+        "Risk": 0.081,
+        "Expected Value KES": 245.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0015-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0015",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 12,
+        "Weeks of Cover": 0.41,
+        "Risk": 0.08,
+        "Expected Value KES": 168.0,
+        "Reasons": "promotion next week; far from depot; low weeks of cover; low closing stock; strong recent sales",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0202-Mozzarella 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0202",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Mozzarella 200g",
+        "Closing Stock": 25,
+        "Weeks of Cover": 1.05,
+        "Risk": 0.08,
+        "Expected Value KES": 142.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0054-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0054",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 20,
+        "Weeks of Cover": 0.71,
+        "Risk": 0.079,
+        "Expected Value KES": 160.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0008-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0008",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Butter 250g",
+        "Closing Stock": 25,
+        "Weeks of Cover": 1.04,
+        "Risk": 0.079,
+        "Expected Value KES": 83.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0198-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0198",
+        "Channel": "HoReCa",
+        "Region": "Nyanza",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 18,
+        "Weeks of Cover": 1.0,
+        "Risk": 0.078,
+        "Expected Value KES": 81.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries; low merchandiser coverage",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0038-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0038",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 33,
+        "Weeks of Cover": 0.71,
+        "Risk": 0.078,
+        "Expected Value KES": 222.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0042-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0042",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Butter 250g",
+        "Closing Stock": 40,
+        "Weeks of Cover": 0.99,
+        "Risk": 0.077,
+        "Expected Value KES": 170.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0121-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0121",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 0,
+        "Weeks of Cover": 0.0,
+        "Risk": 0.077,
+        "Expected Value KES": 139.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries; low closing stock",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0001-Burger Buns 6pk",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0001",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Burger Buns 6pk",
+        "Closing Stock": 49,
+        "Weeks of Cover": 0.77,
+        "Risk": 0.077,
+        "Expected Value KES": 109.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0038-Mozzarella 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0038",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Mozzarella 200g",
+        "Closing Stock": 6,
+        "Weeks of Cover": 0.31,
+        "Risk": 0.077,
+        "Expected Value KES": 101.0,
+        "Reasons": "low weeks of cover; sales accelerating; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0038-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0038",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 27,
+        "Weeks of Cover": 0.79,
+        "Risk": 0.076,
+        "Expected Value KES": 253.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0113-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0113",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 17,
+        "Weeks of Cover": 1.15,
+        "Risk": 0.076,
+        "Expected Value KES": 81.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0150-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0150",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 32,
+        "Weeks of Cover": 0.7,
+        "Risk": 0.075,
+        "Expected Value KES": 209.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0009-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0009",
+        "Channel": "HoReCa",
+        "Region": "Nairobi",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 20,
+        "Weeks of Cover": 1.01,
+        "Risk": 0.075,
+        "Expected Value KES": 88.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; low merchandiser coverage; far from depot",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0150-Mozzarella 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0150",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Mozzarella 200g",
+        "Closing Stock": 22,
+        "Weeks of Cover": 0.91,
+        "Risk": 0.074,
+        "Expected Value KES": 131.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0048-Mozzarella 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0048",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Mozzarella 200g",
+        "Closing Stock": 40,
+        "Weeks of Cover": 1.7,
+        "Risk": 0.074,
+        "Expected Value KES": 125.0,
+        "Reasons": "promotion next week; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0067-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0067",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 15,
+        "Weeks of Cover": 0.92,
+        "Risk": 0.074,
+        "Expected Value KES": 90.0,
+        "Reasons": "low weeks of cover; far from depot; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0202-Long-life Milk 1L",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0202",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Long-life Milk 1L",
+        "Closing Stock": 105,
+        "Weeks of Cover": 1.02,
+        "Risk": 0.073,
+        "Expected Value KES": 140.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0202-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0202",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 23,
+        "Weeks of Cover": 0.45,
+        "Risk": 0.073,
+        "Expected Value KES": 235.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0054-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0054",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 23,
+        "Weeks of Cover": 0.64,
+        "Risk": 0.072,
+        "Expected Value KES": 146.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0066-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0066",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 24,
+        "Weeks of Cover": 0.76,
+        "Risk": 0.072,
+        "Expected Value KES": 122.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0173-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0173",
+        "Channel": "Supermarket",
+        "Region": "Nyanza",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 25,
+        "Weeks of Cover": 1.03,
+        "Risk": 0.071,
+        "Expected Value KES": 112.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; far from depot; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0074-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0074",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 154,
+        "Weeks of Cover": 0.59,
+        "Risk": 0.071,
+        "Expected Value KES": 167.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0060-Yoghurt 250ml Kids",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0060",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Yoghurt 250ml Kids",
+        "Closing Stock": 46,
+        "Weeks of Cover": 0.35,
+        "Risk": 0.071,
+        "Expected Value KES": 100.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0004-Yoghurt 500ml Strawberry",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0004",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Yoghurt 500ml Strawberry",
+        "Closing Stock": 44,
+        "Weeks of Cover": 0.52,
+        "Risk": 0.071,
+        "Expected Value KES": 144.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; far from depot; sales accelerating",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0004-Greek Yoghurt 450g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0004",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Greek Yoghurt 450g",
+        "Closing Stock": 21,
+        "Weeks of Cover": 0.76,
+        "Risk": 0.07,
+        "Expected Value KES": 97.0,
+        "Reasons": "low weeks of cover; far from depot; low closing stock; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0150-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0150",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 22,
+        "Weeks of Cover": 0.99,
+        "Risk": 0.069,
+        "Expected Value KES": 130.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0111-Ice Cream 1L Chocolate",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0111",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Ice Cream 1L Chocolate",
+        "Closing Stock": 16,
+        "Weeks of Cover": 0.94,
+        "Risk": 0.066,
+        "Expected Value KES": 82.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0116-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0116",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 35,
+        "Weeks of Cover": 0.93,
+        "Risk": 0.064,
+        "Expected Value KES": 176.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0074-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0074",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Butter 250g",
+        "Closing Stock": 45,
+        "Weeks of Cover": 1.03,
+        "Risk": 0.064,
+        "Expected Value KES": 148.0,
+        "Reasons": "low weeks of cover; sales accelerating; no delivery scheduled next week; strong recent sales; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0060-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0060",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 43,
+        "Weeks of Cover": 0.78,
+        "Risk": 0.064,
+        "Expected Value KES": 217.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0202-Ice Cream 1L Chocolate",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0202",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Ice Cream 1L Chocolate",
+        "Closing Stock": 26,
+        "Weeks of Cover": 1.06,
+        "Risk": 0.064,
+        "Expected Value KES": 133.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0048-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0048",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 3,
+        "Weeks of Cover": 0.08,
+        "Risk": 0.064,
+        "Expected Value KES": 184.0,
+        "Reasons": "far from depot; low weeks of cover; no delivery scheduled next week; low closing stock; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0041-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0041",
+        "Channel": "Supermarket",
+        "Region": "Nyanza",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 31,
+        "Weeks of Cover": 1.16,
+        "Risk": 0.063,
+        "Expected Value KES": 149.0,
+        "Reasons": "low weeks of cover; far from depot; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0184-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0184",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 13,
+        "Weeks of Cover": 0.68,
+        "Risk": 0.063,
+        "Expected Value KES": 91.0,
+        "Reasons": "low weeks of cover; far from depot; repeated short deliveries; low closing stock",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0169-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0169",
+        "Channel": "Supermarket",
+        "Region": "Nyanza",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 0,
+        "Weeks of Cover": 0.0,
+        "Risk": 0.063,
+        "Expected Value KES": 85.0,
+        "Reasons": "promotion next week; low weeks of cover; low closing stock; repeated short deliveries",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0042-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0042",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 23,
+        "Weeks of Cover": 0.69,
+        "Risk": 0.062,
+        "Expected Value KES": 143.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; sales accelerating; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0116-Yoghurt 500ml Strawberry",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0116",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Yoghurt 500ml Strawberry",
+        "Closing Stock": 66,
+        "Weeks of Cover": 0.81,
+        "Risk": 0.061,
+        "Expected Value KES": 113.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0054-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0054",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 117,
+        "Weeks of Cover": 0.59,
+        "Risk": 0.059,
+        "Expected Value KES": 86.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0074-Long-life Milk 1L",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0074",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Long-life Milk 1L",
+        "Closing Stock": 36,
+        "Weeks of Cover": 0.33,
+        "Risk": 0.059,
+        "Expected Value KES": 110.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0042-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0042",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 51,
+        "Weeks of Cover": 0.23,
+        "Risk": 0.058,
+        "Expected Value KES": 102.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0053-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0053",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 0,
+        "Weeks of Cover": 0.0,
+        "Risk": 0.057,
+        "Expected Value KES": 103.0,
+        "Reasons": "low weeks of cover; low closing stock; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0091-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0091",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 50,
+        "Weeks of Cover": 1.06,
+        "Risk": 0.056,
+        "Expected Value KES": 150.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0060-Long-life Milk 1L",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0060",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Long-life Milk 1L",
+        "Closing Stock": 60,
+        "Weeks of Cover": 0.5,
+        "Risk": 0.056,
+        "Expected Value KES": 119.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0038-Cheddar 200g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0038",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Cheddar 200g",
+        "Closing Stock": 36,
+        "Weeks of Cover": 1.04,
+        "Risk": 0.054,
+        "Expected Value KES": 124.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0004-Fresh Milk 500ml",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0004",
+        "Channel": "Supermarket",
+        "Region": "Central",
+        "SKU": "Fresh Milk 500ml",
+        "Closing Stock": 2,
+        "Weeks of Cover": 0.01,
+        "Risk": 0.053,
+        "Expected Value KES": 88.0,
+        "Reasons": "low weeks of cover; far from depot; low closing stock",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0060-Yoghurt 500ml Strawberry",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0060",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Yoghurt 500ml Strawberry",
+        "Closing Stock": 75,
+        "Weeks of Cover": 0.67,
+        "Risk": 0.053,
+        "Expected Value KES": 145.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; strong recent sales",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0169-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0169",
+        "Channel": "Supermarket",
+        "Region": "Nyanza",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 13,
+        "Weeks of Cover": 0.6,
+        "Risk": 0.052,
+        "Expected Value KES": 80.0,
+        "Reasons": "promotion next week; low weeks of cover; repeated short deliveries",
+        "Suggested Action": "Increase next delivery for the promotion",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0192-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0192",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 3,
+        "Weeks of Cover": 0.14,
+        "Risk": 0.052,
+        "Expected Value KES": 84.0,
+        "Reasons": "far from depot; low weeks of cover; repeated short deliveries; low closing stock",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0048-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0048",
+        "Channel": "Supermarket",
+        "Region": "Rift Valley",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 9,
+        "Weeks of Cover": 0.31,
+        "Risk": 0.051,
+        "Expected Value KES": 122.0,
+        "Reasons": "far from depot; low weeks of cover; low closing stock; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0116-Butter 250g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0116",
+        "Channel": "Supermarket",
+        "Region": "Western",
+        "SKU": "Butter 250g",
+        "Closing Stock": 39,
+        "Weeks of Cover": 1.01,
+        "Risk": 0.049,
+        "Expected Value KES": 82.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries; sales accelerating",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0042-Yoghurt 500ml Strawberry",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0042",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Yoghurt 500ml Strawberry",
+        "Closing Stock": 100,
+        "Weeks of Cover": 1.14,
+        "Risk": 0.048,
+        "Expected Value KES": 86.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0207-Ice Cream 1L Vanilla",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0207",
+        "Channel": "Supermarket",
+        "Region": "Nairobi",
+        "SKU": "Ice Cream 1L Vanilla",
+        "Closing Stock": 3,
+        "Weeks of Cover": 0.1,
+        "Risk": 0.044,
+        "Expected Value KES": 103.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; low closing stock; sales accelerating; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0042-Sausages 500g",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0042",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Sausages 500g",
+        "Closing Stock": 27,
+        "Weeks of Cover": 0.53,
+        "Risk": 0.037,
+        "Expected Value KES": 91.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; strong recent sales; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    },
+    {
+      "fields": {
+        "Alert ID": "2026-08-17-OUT0001-Yoghurt 500ml Strawberry",
+        "Week": "2026-08-17",
+        "Outlet ID": "OUT0001",
+        "Channel": "Supermarket",
+        "Region": "Coast",
+        "SKU": "Yoghurt 500ml Strawberry",
+        "Closing Stock": 13,
+        "Weeks of Cover": 0.12,
+        "Risk": 0.035,
+        "Expected Value KES": 78.0,
+        "Reasons": "low weeks of cover; no delivery scheduled next week; sales accelerating; repeated short deliveries",
+        "Suggested Action": "Merchandiser check & reorder",
+        "Status": "New"
+      }
+    }
+  ]
+}
