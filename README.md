@@ -116,7 +116,7 @@ jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeou
 
 ```
 stockout-prediction-ml/
-├── data/           generate_data.py · outlets.csv · weekly_inventory.csv
+├── data/           generate_data.py · outlets.csv · weekly_inventory.csv.gz
 ├── python/         features.py · build_notebook.py · stockout_prediction.ipynb
 ├── integrations/   airtable_sync.py · softr_portal.md · ai_briefing.py
 └── outputs/        charts · test metrics · alert capacity table · alerts · Airtable payload · AI briefing
