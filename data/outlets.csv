@@ -1,0 +1,221 @@
+outlet_id,channel,region,merch_visits_per_week,distance_km
+OUT0001,Supermarket,Coast,3,40.0
+OUT0002,Duka,Rift Valley,1,32.1
+OUT0003,Duka,Nairobi,0,68.0
+OUT0004,Supermarket,Central,2,49.0
+OUT0005,Supermarket,Nairobi,2,40.2
+OUT0006,HoReCa,Western,0,125.1
+OUT0007,Supermarket,Rift Valley,2,40.6
+OUT0008,Supermarket,Nairobi,3,52.0
+OUT0009,HoReCa,Nairobi,0,45.9
+OUT0010,Duka,Nyanza,0,7.7
+OUT0011,Duka,Nyanza,0,10.7
+OUT0012,Duka,Central,1,11.3
+OUT0013,Duka,Central,0,32.1
+OUT0014,Duka,Western,0,51.0
+OUT0015,Supermarket,Coast,3,84.9
+OUT0016,Petrol Station,Nairobi,1,3.3
+OUT0017,Duka,Nairobi,0,26.9
+OUT0018,Duka,Central,0,125.5
+OUT0019,Petrol Station,Rift Valley,1,147.9
+OUT0020,Duka,Nairobi,0,60.5
+OUT0021,HoReCa,Nairobi,0,144.4
+OUT0022,Supermarket,Nairobi,3,22.8
+OUT0023,Duka,Central,0,9.2
+OUT0024,Duka,Western,1,30.9
+OUT0025,Duka,Rift Valley,1,44.0
+OUT0026,Duka,Nairobi,1,80.8
+OUT0027,Supermarket,Nairobi,2,62.5
+OUT0028,Petrol Station,Rift Valley,1,44.3
+OUT0029,HoReCa,Coast,0,34.8
+OUT0030,Supermarket,Coast,2,35.5
+OUT0031,Duka,Central,1,8.1
+OUT0032,Duka,Coast,1,15.7
+OUT0033,Supermarket,Coast,2,19.8
+OUT0034,HoReCa,Central,0,61.1
+OUT0035,Duka,Western,0,57.0
+OUT0036,Supermarket,Central,3,35.8
+OUT0037,Duka,Nairobi,0,8.6
+OUT0038,Supermarket,Rift Valley,2,36.1
+OUT0039,HoReCa,Nairobi,1,85.7
+OUT0040,Supermarket,Western,3,61.3
+OUT0041,Supermarket,Nyanza,3,56.1
+OUT0042,Supermarket,Coast,3,24.6
+OUT0043,Duka,Central,0,17.4
+OUT0044,Duka,Nairobi,0,45.2
+OUT0045,HoReCa,Coast,1,80.0
+OUT0046,Duka,Coast,0,29.1
+OUT0047,Duka,Coast,0,49.4
+OUT0048,Supermarket,Rift Valley,2,82.8
+OUT0049,Supermarket,Western,3,17.6
+OUT0050,HoReCa,Central,0,27.5
+OUT0051,Duka,Nairobi,0,7.6
+OUT0052,Duka,Nairobi,0,14.6
+OUT0053,Supermarket,Western,2,4.4
+OUT0054,Supermarket,Central,2,29.9
+OUT0055,Petrol Station,Western,1,71.4
+OUT0056,Duka,Rift Valley,1,48.8
+OUT0057,Duka,Central,1,38.9
+OUT0058,Duka,Coast,1,48.3
+OUT0059,Supermarket,Nairobi,3,8.9
+OUT0060,Supermarket,Rift Valley,2,13.5
+OUT0061,Supermarket,Nairobi,2,45.8
+OUT0062,Petrol Station,Coast,0,19.8
+OUT0063,Duka,Rift Valley,1,20.2
+OUT0064,Supermarket,Central,2,29.3
+OUT0065,Petrol Station,Nairobi,1,15.5
+OUT0066,Supermarket,Rift Valley,3,35.4
+OUT0067,Supermarket,Central,2,133.1
+OUT0068,Duka,Nairobi,0,36.6
+OUT0069,HoReCa,Nairobi,0,25.0
+OUT0070,Supermarket,Central,3,50.3
+OUT0071,Petrol Station,Rift Valley,0,44.7
+OUT0072,Supermarket,Rift Valley,3,4.5
+OUT0073,Supermarket,Coast,2,135.7
+OUT0074,Supermarket,Coast,2,31.9
+OUT0075,Duka,Coast,1,10.1
+OUT0076,Petrol Station,Nyanza,1,61.2
+OUT0077,Duka,Rift Valley,1,56.9
+OUT0078,HoReCa,Rift Valley,0,141.2
+OUT0079,Supermarket,Central,2,9.1
+OUT0080,Duka,Central,0,85.5
+OUT0081,Duka,Nairobi,0,68.4
+OUT0082,HoReCa,Nyanza,0,11.1
+OUT0083,HoReCa,Nairobi,0,92.5
+OUT0084,Duka,Nairobi,0,23.2
+OUT0085,Duka,Rift Valley,0,11.3
+OUT0086,Duka,Western,0,50.7
+OUT0087,Petrol Station,Central,0,8.3
+OUT0088,Supermarket,Central,3,33.8
+OUT0089,Supermarket,Western,2,32.7
+OUT0090,Duka,Nairobi,0,51.1
+OUT0091,Supermarket,Nairobi,3,39.5
+OUT0092,Petrol Station,Rift Valley,0,44.6
+OUT0093,Petrol Station,Rift Valley,0,3.1
+OUT0094,Duka,Nyanza,1,27.0
+OUT0095,Duka,Central,1,29.3
+OUT0096,Duka,Nyanza,0,39.1
+OUT0097,Petrol Station,Nairobi,0,23.1
+OUT0098,HoReCa,Nairobi,0,107.1
+OUT0099,Supermarket,Rift Valley,3,25.3
+OUT0100,Duka,Nairobi,0,44.1
+OUT0101,Supermarket,Nairobi,2,57.4
+OUT0102,Duka,Nairobi,1,41.6
+OUT0103,Petrol Station,Central,1,13.4
+OUT0104,HoReCa,Central,0,24.9
+OUT0105,Petrol Station,Rift Valley,0,41.3
+OUT0106,Supermarket,Coast,3,18.2
+OUT0107,Duka,Central,1,55.8
+OUT0108,Supermarket,Nairobi,3,39.6
+OUT0109,HoReCa,Rift Valley,0,39.2
+OUT0110,Supermarket,Nairobi,2,9.1
+OUT0111,Supermarket,Central,3,29.0
+OUT0112,Duka,Central,0,23.4
+OUT0113,Supermarket,Central,2,54.7
+OUT0114,HoReCa,Nairobi,0,20.0
+OUT0115,Duka,Rift Valley,1,26.5
+OUT0116,Supermarket,Western,3,25.2
+OUT0117,Duka,Western,0,64.8
+OUT0118,Supermarket,Coast,3,13.8
+OUT0119,Duka,Central,0,19.1
+OUT0120,Supermarket,Western,3,11.4
+OUT0121,Supermarket,Central,2,54.6
+OUT0122,Supermarket,Nairobi,2,14.9
+OUT0123,Duka,Coast,0,36.6
+OUT0124,Duka,Western,0,60.0
+OUT0125,Duka,Coast,0,9.6
+OUT0126,Duka,Nyanza,0,41.6
+OUT0127,Duka,Coast,0,41.9
+OUT0128,Supermarket,Nairobi,2,25.7
+OUT0129,Duka,Nairobi,0,67.7
+OUT0130,Duka,Nairobi,0,43.3
+OUT0131,HoReCa,Central,0,55.3
+OUT0132,Supermarket,Western,3,85.3
+OUT0133,Supermarket,Central,3,64.1
+OUT0134,Duka,Rift Valley,0,60.3
+OUT0135,HoReCa,Nyanza,0,21.5
+OUT0136,HoReCa,Nairobi,1,45.3
+OUT0137,Petrol Station,Western,0,30.2
+OUT0138,Supermarket,Nairobi,3,39.6
+OUT0139,Petrol Station,Nairobi,0,49.5
+OUT0140,Duka,Western,0,26.6
+OUT0141,Supermarket,Western,3,22.4
+OUT0142,Duka,Central,0,17.9
+OUT0143,Supermarket,Nairobi,2,33.9
+OUT0144,Petrol Station,Nyanza,0,35.1
+OUT0145,Petrol Station,Nairobi,1,12.2
+OUT0146,Petrol Station,Nairobi,0,7.5
+OUT0147,Petrol Station,Nairobi,1,37.7
+OUT0148,Duka,Nairobi,0,38.9
+OUT0149,Petrol Station,Nyanza,1,11.0
+OUT0150,Supermarket,Nairobi,3,24.5
+OUT0151,Supermarket,Coast,2,28.7
+OUT0152,Duka,Nairobi,0,81.2
+OUT0153,Duka,Central,0,99.3
+OUT0154,Duka,Rift Valley,0,19.8
+OUT0155,Duka,Central,1,46.5
+OUT0156,Duka,Central,1,62.5
+OUT0157,Supermarket,Nairobi,3,101.1
+OUT0158,Duka,Central,0,10.4
+OUT0159,Duka,Nairobi,0,24.3
+OUT0160,Petrol Station,Nairobi,0,44.1
+OUT0161,Duka,Coast,1,25.1
+OUT0162,Petrol Station,Nairobi,1,26.5
+OUT0163,Duka,Nairobi,0,5.4
+OUT0164,Duka,Western,0,8.1
+OUT0165,Duka,Coast,0,19.5
+OUT0166,Duka,Nairobi,0,12.9
+OUT0167,Duka,Central,0,27.7
+OUT0168,HoReCa,Western,0,145.4
+OUT0169,Supermarket,Nyanza,2,19.0
+OUT0170,Duka,Rift Valley,0,27.0
+OUT0171,Duka,Nairobi,0,7.6
+OUT0172,Supermarket,Nairobi,3,10.8
+OUT0173,Supermarket,Nyanza,2,43.3
+OUT0174,Petrol Station,Western,1,45.6
+OUT0175,Petrol Station,Coast,0,61.3
+OUT0176,Duka,Nyanza,0,43.0
+OUT0177,HoReCa,Central,1,25.9
+OUT0178,Petrol Station,Nairobi,1,51.5
+OUT0179,Duka,Coast,1,15.1
+OUT0180,Duka,Western,1,59.8
+OUT0181,Duka,Rift Valley,0,2.4
+OUT0182,Petrol Station,Western,0,119.9
+OUT0183,Duka,Central,0,20.5
+OUT0184,Supermarket,Central,3,48.0
+OUT0185,HoReCa,Rift Valley,0,34.0
+OUT0186,Duka,Rift Valley,0,56.5
+OUT0187,Petrol Station,Western,0,9.3
+OUT0188,Duka,Coast,0,40.5
+OUT0189,Petrol Station,Nyanza,0,48.4
+OUT0190,Duka,Central,0,49.0
+OUT0191,Duka,Central,0,9.1
+OUT0192,Supermarket,Coast,2,83.6
+OUT0193,Duka,Central,0,32.2
+OUT0194,Petrol Station,Nyanza,1,85.8
+OUT0195,Petrol Station,Nairobi,0,42.5
+OUT0196,Petrol Station,Rift Valley,1,17.1
+OUT0197,Duka,Rift Valley,0,16.0
+OUT0198,HoReCa,Nyanza,1,29.9
+OUT0199,Supermarket,Coast,3,3.1
+OUT0200,HoReCa,Nairobi,0,42.3
+OUT0201,Duka,Rift Valley,0,23.9
+OUT0202,Supermarket,Western,2,54.0
+OUT0203,Duka,Nairobi,1,16.3
+OUT0204,Duka,Nyanza,0,25.1
+OUT0205,Duka,Rift Valley,0,7.5
+OUT0206,HoReCa,Coast,0,15.2
+OUT0207,Supermarket,Nairobi,3,30.4
+OUT0208,Duka,Rift Valley,1,23.7
+OUT0209,Duka,Central,0,14.2
+OUT0210,Duka,Western,1,16.9
+OUT0211,Duka,Rift Valley,0,32.0
+OUT0212,Supermarket,Rift Valley,2,8.3
+OUT0213,Duka,Central,0,94.0
+OUT0214,HoReCa,Rift Valley,0,28.6
+OUT0215,Supermarket,Central,3,73.1
+OUT0216,Supermarket,Coast,2,35.0
+OUT0217,Supermarket,Rift Valley,3,62.1
+OUT0218,Duka,Rift Valley,0,44.2
+OUT0219,HoReCa,Nairobi,1,70.4
+OUT0220,Supermarket,Nairobi,2,69.2
